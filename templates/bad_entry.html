@@ -14,16 +14,14 @@
 	<div>
         <div class="container">
 		<header>
-			<nav>
-				<ul>
-					<li><a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a></li>
-					<li><a href="/new">Новичок</a></li>
-					<li><a href="/middle">Средничок</a></li>
-					<li><a href="/profi">Профи</a></li>
-					<li><a href="/form">Поиск по корпусу</a></li>
-				</ul>
-			</nav>		
+            <h1>
+                <hr size="4" color="black">
+                    <a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
+					<center> RST средний уровень </center>
+                <hr size="4" color="black">
+            </h1>           
         </header>
+		<center><b>Результаты поиска</b></center><br>
 		<center>{{message}}</center>
 		<center><a href='/form'>Вернуться к поиску</a></center>	
 		</div>

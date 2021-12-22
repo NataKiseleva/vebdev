@@ -14,17 +14,16 @@
 	<div>
         <div class="container">
 		<header>
-			<div id='navigation'>
-				<ul>
-					<li display='inline'><a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a><li>
-					<li display='inline'><a href="/new">Новичок</a></li>
-					<li display='inline'><a href="/middle">Средничок</a></li>
-					<li display='inline'><a href="/profi">Профи</a></li>
-					<li display='inline'><a href="/form">Поиск по корпусу</a></li>
-				</ul>
-			</div>		
+            <h1>
+                <hr size="4" color="black">
+                    <a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
+					<center> RST средний уровень </center>
+                <hr size="4" color="black">
+            </h1>           
         </header>
-	<p><a href='/form' align="left">Вернуться к поиску</a></p>	
+	<center><b>Результаты поиска</b></center><br>
+	<p>Найдено примеров: {{list_len}}. </p>
+	<p><a href='/form' style='text-align:left'>Вернуться к поиску</a></p>	
 	{% for i in range(list_len) %} 
 	<span class="b-doc-expl"> {{i+1}}. ID текста {{text_ids[i]}}
 	<table width="100%" cellspacing="10">

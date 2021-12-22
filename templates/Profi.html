@@ -3,7 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="stylesheet" type="text/css" href={{url_for('static', filename='style.css')}}>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src={{url_for('static', filename="JS.js")}}></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,21 +13,61 @@
         </title>
     </head>
     <body>
-        <div>
-            <div class="container">
-                <header>
-                    <h1>
-                        <hr size="4" color="black">
-                            <a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
-                            <center> RST для профи </center>
-                        <hr size="4" color="black">
-                    </h1>           
-                </header>
-            </div> 
+    <div class="container">
+        <div class="wrapper">
+            <header>
+            <h1>
+                <hr size="4" color="black">
+                <a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
+                <center> RST с нуля </center>
+                <hr size="4" color="black">
+            </h1>           
+            </header>
+            <div class="push"></div>
+            <div id="w">
+            <section id="content">
+                <center>
+                <h2>
+                    Ссылки для профессионалов
+                </h2>
+                </center>
+                <div class="push"></div>
+                <details class="m2">
+                <summary id="s">
+                    Подробное описание корпуса
+                </summary>
+                <p>
+                Для создания корпуса мы использовали rst-размеченные тексты на английском языка и их переводы на русский язык. Тексты на русском языке были размечены  русским авторазметчиком, включающем в себя информацию об английской RST-теории. Также все тексты были вручную сегментированны (разбиты на элементарные дискурсивные единицы)тремя аннотаторами.
+                </p>
+                <p>
+                <a class="button" href="https://drive.google.com/drive/folders/1sReNN24hX8NE1sAEugDOIBWxjy7W1spG" target="_blank">Описание корпуса</a>
+                </p>
+                </details>
+                <details class="m2">
+                <summary id="d">
+                    Инструкции и различия между ними
+                </summary>
+                <a class="button" href="https://docs.google.com/document/d/1kuGxlJ890HfcB47kaLiDYnOueaNw4P96SR27587peRE/edit" target="_blank">Русский</a>
+                <a class="button" href="https://docs.google.com/document/d/13f-BTu-94YixeJZqjPToTix0hwf3oyqJC9V6EZxHyXA/edit?usp=drive_web&ouid=103729974645488973798" target="_blank">Английский</a>
+                <a class="button" href="https://docs.google.com/spreadsheets/d/1AC_x1EMMDRqeG0AI9kwW--QhDGs6ez15y2xt_asnX3c/edit#gid=63334461" target="_blank">Различия</a>
+                </details>
+                <details class="m2">
+                <summary id="p">
+                    Сделай сам
+                </summary>
+                <a class="button" href="http://89.108.81.105:5000/api/docs" target="_blank">API поиска</a>
+                <a class="button" href="https://github.com/IHumonen/RHETORICAL_CORPUS" target="_blank">Наш репозиторий</a>
+                <a class="button" href="https://github.com/PolinaGusenkova/arg-microtexts-multilayer-eng-rus" target="_blank">Оригинальный корпус</a>
+                <a class="button" href="https://github.com/tchewik/isanlp_rst" target="_blank">Авторазметчик для русского языка</a>
+                <a class="button" href="https://rstreebank.ru" target="_blank">Ru-RSTreebank</a>
+                </details>
+            </section>
+            <div class="push"></div>
+            </div>
+        </div>
             <footer class="footer">
                 <a href="https://github.com/IHumonen/RHETORICAL_CORPUS"><img src={{url_for('static', filename='email.png')}} class="im1"></a>
             </footer>
-        </div> 
+        </div>    
     </body>
 </html>
-
