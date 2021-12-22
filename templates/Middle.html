@@ -3,7 +3,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <link rel="stylesheet" type="text/css" href={{url_for('static', filename='style.css')}}>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src={{url_for('static', filename="JS.js")}}></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,21 +13,64 @@
         </title>
     </head>
     <body>
-        <div>
-            <div class="container">
-                <header>
-                    <h1>
-                        <hr size="4" color="black">
-                            <a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
-                            <center> RST средний уровень </center>
-                        <hr size="4" color="black">
-                    </h1>           
-                </header>
-            </div> 
+    <div class="container">
+        <div class="wrapper">
+            <header>
+            <h1>
+                <hr size="4" color="black">
+                <a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
+                <center> RST с нуля </center>
+                <hr size="4" color="black">
+            </h1>           
+            </header>
+            <div class="push"></div>
+            <div id="w">
+            <section id="content">
+                <center>
+                <h2>
+                    Информация для продвинутых
+                </h2>
+                </center>
+                <div class="push"></div>
+                <details class="m2">
+                <summary id="s">
+                    Погружение в RST
+                </summary>
+                <p>
+                Теория риторических структур (ТРС) была первоначально сформулирована Уильямом Манном и Сандрой Томпсон из Института информационных наук (ISI) Университета Южной Калифорнии в 1988 году. Эта теория была разработана как часть исследований компьютерного генерирования текста. Позже исследователи естественного языка начали использовать ТРС для реферирования текста и других задач анализа и создания текста. ТРС моделирует содержательное строение текста посредством отношений, которые поддерживаются между частями текста. ТРС объясняет когерентность, устанавливая иерархическую, связанную структуру текстов. В 2000 году Даниэль Марку, также из ISI, продемонстрировал, что ТРС можно применять и для синтаксического анализа дискурса и обобщения текста. Оригинальную статью можно прочитать <a href="https://www.degruyter.com/document/doi/10.1515/text.1.1988.8.3.243/html"> здесь.</a>
+                </p>
+                </details>
+                <details class="m2">
+                <summary id="d">
+                    Инструкции и различия между ними
+                </summary>
+                <a class="button" href="https://docs.google.com/document/d/1kuGxlJ890HfcB47kaLiDYnOueaNw4P96SR27587peRE/edit" target="_blank">Русский</a>
+                <a class="button" href="https://docs.google.com/document/d/13f-BTu-94YixeJZqjPToTix0hwf3oyqJC9V6EZxHyXA/edit?usp=drive_web&ouid=103729974645488973798" target="_blank">Английский</a>
+                <a class="button" href="https://docs.google.com/spreadsheets/d/1AC_x1EMMDRqeG0AI9kwW--QhDGs6ez15y2xt_asnX3c/edit#gid=63334461" target="_blank">Различия</a>
+                </details>
+                <details class="m2">
+                <summary id="p">
+                    Примеры
+                </summary>
+                <p><a class="button" href='/form'>Поиск по корпусу</a></p>
+                </details>
+                <details class="m2">
+                <summary id="t">
+                    Сделай сам
+                </summary>
+                <a class="button" href="http://89.108.81.105:5000/api/docs" target="_blank">API поиска</a>
+                <a class="button" href="https://github.com/IHumonen/RHETORICAL_CORPUS" target="_blank">Наш репозиторий</a>
+                <a class="button" href="https://github.com/PolinaGusenkova/arg-microtexts-multilayer-eng-rus" target="_blank">Оригинальный корпус</a>
+                <a class="button" href="https://github.com/tchewik/isanlp_rst" target="_blank">Авторазметчик для русского языка</a>
+                <a class="button" href="https://rstreebank.ru" target="_blank">Ru-RSTreebank</a>
+                </details>
+            </section>
+            <div class="push"></div>
+            </div>
+        </div>
             <footer class="footer">
                 <a href="https://github.com/IHumonen/RHETORICAL_CORPUS"><img src={{url_for('static', filename='email.png')}} class="im1"></a>
             </footer>
-        </div> 
+        </div>    
     </body>
 </html>
-
