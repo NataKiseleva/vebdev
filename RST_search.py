@@ -193,8 +193,8 @@ def rst_search(query=None, pos=None, rels=None):
     
     else:
         if pos != None:
-            pos_check(pos, rus_df, text_ids)
-            pos_check(pos, eng_df, text_ids)
+            pos_check(pos[0], rus_df, text_ids)
+            pos_check(pos[0], eng_df, text_ids)
             
             if text_ids == []:
                 return 'Совпадения не найдены', 0
