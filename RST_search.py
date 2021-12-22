@@ -144,7 +144,7 @@ def lang_detect(query):
         if bool(re.search('[а-яА-Я]', query)) == True:
             return 'ru'
         elif bool(re.search('[a-zA-Z]', query)) == True:
-            return 'eg'
+            return 'en'
         else:
             return None
 
