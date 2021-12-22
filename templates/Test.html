@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href={{url_for('static', filename='style.css')}}>
+        <title>
+            RST с нуля
+        </title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>
+                    <hr size="4" color="black">
+                        <center> RST с нуля </center>
+                    <hr size="4" color="black">
+                </h1>           
+            </header>
+            <div class="push"></div>
+            <div id="w">
+                <section id="content">
+                    <div class="flex">
+                        <div id="no">
+                            <center>
+                                <a href="/new"><img src={{url_for('static', filename='new.jpg')}} alt="Я - новичок" class="im"></a>
+                                <details>
+                                    <summary>
+                                        Я - новичок
+                                    </summary>
+                                    <p class="menu">Этот раздел будет полезен тем, кто хочет узнать про теорию риторических структур, посмотреть примеры и попробовать самостоятельно поразмечать тексты</p>
+                                </details>    
+                            </center>
+                        </div>
+                        <div id="mi">
+                            <center>
+                                <a href="/middle"><img src={{url_for('static', filename='middle.jpeg')}} alt="Средний уровень" class="im"></a>
+                                <details>
+                                    <summary>
+                                        Средний уровень
+                                    </summary>
+                                    <p class="menu">Вы уже знаете про RST и прочитали инструкцию для разметки, но не всё поняли и хотите посмотреть на размеченные тексты или найти нужные примеры</p>
+                                </details>
+                            </center>
+                        </div>
+                        <div id="pr">
+                            <center>
+                                <a href="/profi"><img src={{url_for('static', filename='profi.png')}} alt="Я - профи" class="im"></a>
+                                <details>
+                                    <summary>
+                                        Я - профи
+                                    </summary>
+                                    <p class="menu">Вам всё понятно и Вы хотите поработать с корпусом напрямую</p>
+                                </details>
+                            </center>
+                        </div>
+                    </div>
+                </section>
+                <div class="push"></div>
+            </div>
+            <footer class="footer">
+                <a href="https://github.com/IHumonen/RHETORICAL_CORPUS"><img src={{url_for('static', filename='email.png')}} class="im1"></a>
+            </footer>
+        </div>    
+    </body>
+</html>

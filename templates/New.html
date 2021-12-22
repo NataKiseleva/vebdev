@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" href={{url_for('static', filename='style.css')}}>
+		<script src={{url_for('static', filename="JS.js")}}></script>
+        <title>
+            RST с нуля. Раздел для новичка
+        </title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>
+                    <hr size="4" color="black">
+                        <a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
+                        <center> RST с нуля </center>
+                    <hr size="4" color="black">
+                </h1>           
+            </header>
+            <div class="push"></div>
+            <div id="w">
+                <section id="content">
+                    <center>
+                        <h2>
+                            Туториал для новичка
+                        </h2>
+                    </center>
+                    <div class="push"></div>
+                    <details class="m2">
+                        <summary id="s">
+                            Что такое RST?
+                        </summary>
+                        <p>RST - теория риторических структур - позволяет моделировать содержание
+                            текста в виде древовидной структуры</p>
+                        <ol>
+                            <li> Текст делится на ЭДЕ</li>
+                            <li>ЭДЕ бывают двух типов:ядра и сателлиты/спутники</li>
+                            <li>Между ними устанавливаются логические отношения</li>
+                        </ol>
+                        <img src={{url_for('static', filename='rst1.png')}} class = "rst">
+                        <p>При разделении текста на ЭДЕ учитываются два признака:</p>
+                        <ul>
+                            <li>Формальный</li>
+                            <ul>
+                                <li>В отдельную ЭДЕ выделяются финитные клаузы</li>
+                                <li>Никакие однородные члены помимо сказуемых не являются основанием для выделения отдельных ЭДЕ</li>
+                            </ul>
+                            <li>Семантический</li>
+                            <ul>
+                                <li>Сложноподчиненные предложения: обстоятельственные vs дополнительные</li>
+                                <li>Придаточные определительные и причастные обороты: ограничительные vs описательные</li>
+                            </ul>
+                        </ul>
+                        <img src={{url_for('static', filename='rst2.png')}} class = "rst" id="rst2">
+                        <p>Ядро содержит основную информацию, спутник - дополнительную.</p>
+                        <p>Спутник часто непонятен без ядра, тогда как текст, в котором спутники были удалены, может быть понят.</p>
+                        <img src={{url_for('static', filename='rst3.png')}} class = "rst">
+                        <div class="pod">
+                            <p>Ядро: “Все это сделали гурские хасиды”</p>
+                            <p>Спутник: “по словам Мирьям”</p>
+                        </div>
+                        <p>Зачем нужна RST разметка?</p>
+                        <p>Для распознавания отношений между частями текста, которые описывают отдельные факты/ситуации, и установления иерархии этих частей</p>
+                    </details>
+                    <details class="m2">
+                        <summary id="d">
+                            Инструкция
+                        </summary>
+                        <a class="button" href="https://docs.google.com/document/d/1kuGxlJ890HfcB47kaLiDYnOueaNw4P96SR27587peRE/edit" target="_blank">Русский</a>
+                        <a class="button" href="https://docs.google.com/document/d/13f-BTu-94YixeJZqjPToTix0hwf3oyqJC9V6EZxHyXA/edit?usp=drive_web&ouid=103729974645488973798" target="_blank">Английский</a>
+                    </details>
+                    <details class="m2">
+                        <summary id="p">
+                            Примеры
+                        </summary>
+                        <p><a class="button" href='/form'>Поиск по корпусу</a></p>
+                    </details>
+                    <details class="m2">
+                        <summary id="t">
+                            Тренировка
+                        </summary>
+                        <p>Выбери ядро</p>
+                        <p>Задание 1</p>
+                        <button class="click_me" id="id_1">Но до тех пор, пока неясно, как это работает</button>
+                        <button class="click_me_2" id="id_2">средства скорее должны быть потрачены на терапию, в которой мы точно уверены.</button>
+                        <p>Задание 2</p>
+                        <button class="click_me_2" id="id_3">Тем не менее, каждый должен участвовать в финансировании государственных теле- и радиокомпаний в равной мере</button>
+                        <button class="click_me" id="id_4">потому что нам нужны общие и независимые СМИ.</button>
+                        <p>Задание 3</p>
+                        <button class="click_me_2" id="id_5">Парламенту срочно необходимо принять меры по более жёсткому контрою спецслужб</button>
+                        <button class="click_me" id="id_6">это должно быть ясно всем после разоблачений, совершённых Эдвардом Сноуденом</button>
+                        <p>Задание 4</p>
+                        <button class="click_me" id="id_7">Даже если предположить, что это событие затронуло в основном спецслужбы Великобритании и США</button>
+                        <button class="click_me_2" id="id_8">Германия, очевидно, близко с ними сотрудничает</button>
+                        <p>Задание 5</p>
+                        <button class="click_me_2" id="id_9">Их оборудование, данные и опыт в течение долгого времени использовались</button>
+                        <button class="click_me" id="id_10">чтобы держать нас под надзором.</button>
+                    </details>
+                    <details class="m2">
+                        <summary id="s">
+                            Сделай сам
+                        </summary>
+                        <p>кнопки в инструкции</p>
+                    </details>
+                </section>
+                <div class="push"></div>
+            </div>
+            <footer class="footer">
+                <a href="https://github.com/IHumonen/RHETORICAL_CORPUS"><img src={{url_for('static', filename='email.png')}} class="im1"></a>
+            </footer>
+        </div>    
+    </body>
+</html>
