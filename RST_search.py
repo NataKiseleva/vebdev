@@ -208,6 +208,9 @@ def rst_search(query=None, pos=None, rels=None):
                 return 'Совпадения не найдены', 0
             else:
                 return get_texts(res_ids), res_ids
+        
+        if rels == None and pos == None:
+            return 'Пустой запрос. Попробуйте еще раз.', 0
 
 
 # In[17]:
