@@ -1,0 +1,23 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="preparation" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Несмотря на принятую законодательством США смертную казнь,</segment>
+<segment id="2" relname="elaboration">там значительно больше убийств, чем в Германии.</segment>
+<segment id="3" parent="9" relname="interpretation-evaluation">Следовательно, страх наказания не удерживает убийц.</segment>
+<segment id="4" parent="7" relname="span">Выражение «око за око», похоже, теряет смысл.</segment>
+<segment id="5" parent="10" relname="contrast">Государство должно предотвратить убийство,</segment>
+<segment id="6" parent="10" relname="contrast">а не наказать за него.</segment>
+<group id="7" parent="10" relname="preparation" type="span"></group>
+<group id="8" parent="4" relname="preparation" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="11" relname="span" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

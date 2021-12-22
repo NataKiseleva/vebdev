@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Выполнение бюджета должен быть заново переосмыслено,</segment>
+<segment id="2" relname="condition">даже если миллиарды евро уже были вложены в существующий проект аэропорта,</segment>
+<segment id="3" parent="6" relname="span">и из-за этого дата завершения будет откладываться на неопределенный срок.</segment>
+<segment id="4" parent="8" relname="span">Как затяжные строительные работы, так и вопросы безопасности</segment>
+<segment id="5" parent="4" relname="condition">при монтаже показывают явные недостатки во всем планировании.</segment>
+<group id="6" parent="9" relname="span" type="span"></group>
+<group id="7" parent="3" relname="cause-effect" type="span"></group>
+<group id="8" parent="6" relname="elaboration" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

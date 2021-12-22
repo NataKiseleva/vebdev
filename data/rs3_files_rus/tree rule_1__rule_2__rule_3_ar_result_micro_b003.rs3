@@ -1,0 +1,23 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Медицинские страховые компании не должны покрывать лечение в дополнительной медицине</segment>
+<segment id="2" relname="condition">если обещанный эффект и его медицинская польза не были конкретно доказаны.</segment>
+<segment id="3" parent="7" relname="contrast">Однако, именно этого доказательства в большинстве случаев и не хватает.</segment>
+<segment id="4" parent="9" relname="contrast">Пациенты действительно часто сообщают об уменьшении их жалоб после такого лечения.</segment>
+<segment id="5" parent="10" relname="same-unit">Но до тех пор, пока неясно, как это работает,</segment>
+<segment id="6" parent="10" relname="same-unit">средства скорее должны быть потрачены на терапию,в которой мы точно уверены.</segment>
+<group id="7" parent="11" relname="joint" type="span"></group>
+<group id="8" parent="7" relname="contrast" type="span"></group>
+<group id="9" parent="11" relname="joint" type="span"></group>
+<group id="10" parent="9" relname="contrast" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

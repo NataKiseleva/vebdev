@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="cause-effect">Университеты Германии ни при каких обстоятельствах не должны брать плату за обучение.</segment>
+<segment id="2" parent="9" relname="joint">Это будет препятствовать</segment>
+<segment id="3" parent="9" relname="joint">или закрывать доступ к образованию для малообеспеченных граждан.Цели, которые предполагается достигнуть платой за обучение, могут быть достигнуты другими способами.</segment>
+<segment id="4" parent="12" relname="span">Существуют и другие средства</segment>
+<segment id="5" parent="4" relname="purpose">для создания более строгой дисциплины</segment>
+<segment id="6" parent="12" relname="condition">при обучении.</segment>
+<segment id="7" parent="11" relname="elaboration">С точки зрения финансирования также стоит предположить, как можно компенсировать расходы, понесённые студентами из других государств.</segment>
+<group id="8" parent="13" relname="joint" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="13" relname="joint" type="span"></group>
+<group id="11" parent="10" relname="span" type="span"></group>
+<group id="12" parent="11" relname="span" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,31 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="comparison" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="11" relname="span">Штраф за собачьи «кучки» на асфальте должен быть значительно больше.</segment>
+<segment id="2" parent="13" relname="joint">Наступить в собачью «кучку» - это мерзко,</segment>
+<segment id="3" parent="13" relname="joint">и это портит настроение на весь день из-за грязи, вони и часто значительных усилий, необходимых</segment>
+<segment id="4" parent="13" relname="purpose">для её удаления.</segment>
+<segment id="5" parent="15" relname="comparison">К тому же, штраф за публичное мочеиспускание для людей выше,</segment>
+<segment id="6" parent="15" relname="comparison">чем за оставление собачьих испражнений на асфальте,</segment>
+<segment id="7" parent="15" relname="interpretation-evaluation">чего не должно быть.</segment>
+<segment id="8" parent="16" relname="contrast">Некоторые владельцы собак полагают,что оплата лицензии на собаку покрывает удаление таких отходов,</segment>
+<segment id="9" parent="16" relname="contrast">но по этой логике налогоплательщиков вообще сложно привлечь к ответу за какое-либо правонарушение.</segment>
+<group id="10" parent="17" relname="span" type="span"></group>
+<group id="11" parent="10" relname="joint" type="span"></group>
+<group id="12" parent="1" relname="elaboration" type="span"></group>
+<group id="13" parent="12" relname="span" type="span"></group>
+<group id="14" parent="10" relname="joint" type="span"></group>
+<group id="15" parent="14" relname="span" type="span"></group>
+<group id="16" parent="10" relname="elaboration" type="span"></group>
+<group id="17" type="span"></group>
+</body>
+</rst>

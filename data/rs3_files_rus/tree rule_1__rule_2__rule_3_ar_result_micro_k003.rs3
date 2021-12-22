@@ -1,0 +1,23 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Обычно даётся всего два месяца,</segment>
+<segment id="2" relname="purpose">чтобы закончить обучение на диплом бакалавра по лингвистике.</segment>
+<segment id="3" parent="4" relname="cause-effect">В любом случае, поправка общей оценки в сторону повышения не будет соизмерима с другими учебными заданиями и экзаменами.</segment>
+<segment id="4" parent="9" relname="span">Поэтому следует сохранить действующие правила расчета общей оценки.</segment>
+<segment id="5" parent="10" relname="contrast">Действительно, подготовка такого научного труда является важнейшей компетенцией, которую необходимо приобретать в области филологии.</segment>
+<segment id="6" parent="10" relname="contrast">Однако, в течение шести или семи семестров рассматриваются и другие темы, которые следует принимать во внимание.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" parent="8" relname="elaboration" type="span"></group>
+<group id="10" parent="7" relname="elaboration" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

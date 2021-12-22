@@ -1,0 +1,25 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Несправедливо и неоправданно, что новые арендаторы вынуждены платить гораздо больше, чем предыдущие жильцы.</segment>
+<segment id="2" parent="3" relname="cause-effect">Разумеется, перед заключением нового арендного договора</segment>
+<segment id="3" parent="10" relname="span">домовладельцу придётся оплатить некоторый ремонт.</segment>
+<segment id="4" parent="9" relname="contrast">Но эти расходы наверняка можно покрыть минимальным увеличением арендной платы в течение всего срока аренды.</segment>
+<segment id="5" parent="12" relname="span">Тем более, что</segment>
+<segment id="6" parent="5" relname="purpose">для получения достойной прибыли</segment>
+<segment id="7" parent="12" relname="purpose">арендную ставку по сравнению с базовой не нужно повышать для каждого нового договора.</segment>
+<group id="8" parent="13" relname="span" type="span"></group>
+<group id="9" parent="1" relname="elaboration" type="span"></group>
+<group id="10" parent="9" relname="contrast" type="span"></group>
+<group id="11" parent="8" relname="elaboration" type="span"></group>
+<group id="12" parent="11" relname="span" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

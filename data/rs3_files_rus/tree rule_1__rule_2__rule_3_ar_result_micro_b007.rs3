@@ -1,0 +1,16 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="cause-effect">Собачьи «кучки» на асфальте требуют от меня обращать пристальное внимание на землю по дороге на работу.</segment>
+<segment id="2" parent="3" relname="cause-effect">Это приводит к отсутствию бдительности,</segment>
+<segment id="3" parent="6" relname="span">что можно приравнять к незначительному нарушению правил дорожного движения.</segment>
+<segment id="4" parent="7" relname="span">Вот почему создание таких препятствий необходимо наказывать более срочно.Владельцы могут думать, что это просто выделения животных, такие же, как любые другие. Но они неправильно оценивают влияние «кучек» на дорожное движение.</segment>
+<group id="5" parent="4" relname="cause-effect" type="span"></group>
+<group id="6" parent="5" relname="span" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

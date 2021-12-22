@@ -1,0 +1,27 @@
+<rst>
+<header>
+<relations>
+<rel name="evidence" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="comparison" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Необходимо пресечь непомерную арендную плату путём ограничения её повышения</segment>
+<segment id="2" relname="condition">при смене места жительства.</segment>
+<segment id="3" parent="9" relname="span">Так как доступное жильё трудно найти.</segment>
+<segment id="4" parent="11" relname="contrast">К тому же, большинству людей не нужна роскошь (дорогие квартиры)</segment>
+<segment id="5" parent="11" relname="contrast">, скорее, им нужна хоть какая-то квартира.</segment>
+<segment id="6" parent="12" relname="span">К тому же, всем приходится переезжать примерно от трёх до десяти раз в жизни,</segment>
+<segment id="7" parent="6" relname="cause-effect">потому что размеры желаемой жилплощади меняются с течением времени.</segment>
+<group id="8" parent="13" relname="span" type="span"></group>
+<group id="9" parent="8" relname="interpretation-evaluation" type="span"></group>
+<group id="10" parent="3" relname="evidence" type="span"></group>
+<group id="11" parent="10" relname="comparison" type="span"></group>
+<group id="12" parent="10" relname="comparison" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

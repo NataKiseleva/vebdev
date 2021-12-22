@@ -1,0 +1,17 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="5" relname="span">Школьную форму не следует носить в наших школах.</segment>
+<segment id="2" relname="elaboration">Она действительно обладает преимуществом предотвращения соревнования в «брендовости» одежды и дискриминации социально незащищенных групп населения.</segment>
+<segment id="3" parent="6" relname="span">Тем не менее, мало кто захочет надеть на себя или своего ребёнка стандартизированную униформу.</segment>
+<segment id="4" parent="3" relname="elaboration">К тому же, школьная форма поддерживает идею идеологического конформизма и подавления индивидуального развития.</segment>
+<group id="5" parent="7" relname="contrast" type="span"></group>
+<group id="6" parent="7" relname="contrast" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

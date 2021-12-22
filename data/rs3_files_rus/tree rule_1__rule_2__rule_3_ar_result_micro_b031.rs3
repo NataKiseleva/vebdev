@@ -1,0 +1,23 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Не следует повторно вводить смертную казнь в Германии,</segment>
+<segment id="2" parent="8" relname="joint">поскольку никто не может претендовать на право решать, жить другому</segment>
+<segment id="3" parent="8" relname="joint">или умереть.</segment>
+<segment id="4" parent="10" relname="cause-effect">Высшая мера наказания никого не удержит от жестокости.</segment>
+<segment id="5" parent="10" relname="joint">Каждому должен быть предоставлен шанс пробудить свою совесть</segment>
+<segment id="6" parent="10" relname="joint">и, возможно, искупить вину за содеянное.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="1" relname="cause-effect" type="span"></group>
+<group id="9" parent="7" relname="elaboration" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

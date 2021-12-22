@@ -1,0 +1,24 @@
+<rst>
+<header>
+<relations>
+<rel name="evidence" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="restatement" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Олимпийские игры уходят корнями в старые традиции.</segment>
+<segment id="2" parent="9" relname="span">С другой стороны, они носят культурно обусловленный характер.</segment>
+<segment id="3" parent="2" relname="evidence">Компьютеры оказывают огромное влияние на наше цифровое общество.</segment>
+<segment id="4" parent="8" relname="contrast">Но спорт обычно ассоциируется с физическими тренировками.</segment>
+<segment id="5" parent="6" relname="cause-effect">Т. к. скат, шахматы и т.д. не признаются олимпийскими дисциплинами,</segment>
+<segment id="6" parent="10" relname="span">компьютерные игры также не должны признаваться таковыми.</segment>
+<group id="7" parent="11" relname="restatement" type="span"></group>
+<group id="8" parent="1" relname="elaboration" type="span"></group>
+<group id="9" parent="8" relname="contrast" type="span"></group>
+<group id="10" parent="11" relname="restatement" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,17 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="5" relname="joint">Хотя успехи IBM в последнее не были ошеломляющими,</segment>
+<segment id="2" parent="5" relname="joint">и настроения на бирже ценных бумаг могли бы быть в целом получше,если вы хотите вложиться, вам стоит купить акции IBM.</segment>
+<segment id="3" parent="6" relname="joint">Потому что, во-первых, их продукт будет продаваться даже во время застоя,</segment>
+<segment id="4" parent="6" relname="joint">а во-вторых, эти акции не так чувствительны к колебаниям на рынке, как акции других IT-компаний.</segment>
+<group id="5" parent="7" relname="span" type="span"></group>
+<group id="6" parent="5" relname="cause-effect" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

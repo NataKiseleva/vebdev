@@ -1,0 +1,12 @@
+<rst>
+<header>
+<relations>
+<rel name="evidence" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="3" relname="span">Совершенно очевидно, что воскресенье должно оставаться днем отдыха.</segment>
+<segment id="2" relname="evidence">За покупками можно ходить 6 дней в неделю,</segment>
+<group id="3" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Смертная казнь должна быть отменена повсеместно.</segment>
+<segment id="2" parent="9" relname="span">С христианской и гуманистической точки зрения убивать кого бы то ни было неприемлемо.</segment>
+<segment id="3" parent="10" relname="contrast">Сторонники смертной казни рассчитывают на её сдерживающий эффект и окончательное устранение любой потенциальной угрозы.</segment>
+<segment id="4" parent="11" relname="same-unit">Однако, угроза смертной казни в тех странах, где она применяется,</segment>
+<segment id="5" parent="11" relname="same-unit">очевидно, не может предотвратить убийства и тяжкие преступления.</segment>
+<segment id="6" parent="12" relname="joint">Более того, раз за разом оказывается, что невинных людей тоже приговаривают</segment>
+<segment id="7" parent="12" relname="joint">и казнят.</segment>
+<group id="8" parent="13" relname="span" type="span"></group>
+<group id="9" parent="1" relname="elaboration" type="span"></group>
+<group id="10" parent="2" relname="elaboration" type="span"></group>
+<group id="11" parent="10" relname="contrast" type="span"></group>
+<group id="12" parent="8" relname="interpretation-evaluation" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

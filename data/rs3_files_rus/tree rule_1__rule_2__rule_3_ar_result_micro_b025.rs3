@@ -1,0 +1,23 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="joint">С незапамятных времён люди практикуют комплементарную медицину,</segment>
+<segment id="2" parent="9" relname="joint">и в основном она работает.</segment>
+<segment id="3" parent="10" relname="span">Сокращение количества химических лекарств на душу населения несомненно, было бы желательно.</segment>
+<segment id="4" parent="11" relname="joint">Это не причинит серьёзного вреда фармацевтической индустрии,</segment>
+<segment id="5" parent="11" relname="joint">и традиционная медицина тоже не пострадает.</segment>
+<segment id="6" parent="12" relname="joint">Пациент мог бы научиться лучше ощущать своё тело</segment>
+<segment id="7" parent="12" relname="joint">и относиться к нему с пользой для здоровья.</segment>
+<group id="8" parent="13" relname="joint" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="9" relname="elaboration" type="span"></group>
+<group id="11" parent="3" relname="elaboration" type="span"></group>
+<group id="12" parent="13" relname="joint" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

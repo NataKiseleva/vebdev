@@ -1,0 +1,34 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="comparison" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="11" relname="span">Не каждого следует обязать оплачивать лицензию на пользование телевидением и радио.</segment>
+<segment id="2" parent="13" relname="span">В особенности люди молодого поколения больше не зависят от программ общественного вещания.</segment>
+<segment id="3" parent="14" relname="comparison">Американские сериалы предпочтительнее,</segment>
+<segment id="4" parent="14" relname="comparison">чем вЂњTatortвЂќ и больше обращаются к онлайн-журналам вместо вЂњTagesthemenвЂќ.</segment>
+<segment id="5" parent="16" relname="span">Лицензия на телевидение и радио</segment>
+<segment id="6" parent="5" relname="purpose">позволяет осуществлять экономически независимую деятельность в журналистике.</segment>
+<segment id="7" parent="18" relname="span">Но до тех пор, пока плательщики лицензий не имеют права голоса</segment>
+<segment id="8" parent="7" relname="condition">при распределении средств,</segment>
+<segment id="9" parent="17" relname="span">эта плата будет их только раздражать.</segment>
+<segment id="10" parent="11" relname="interpretation-evaluation">И это совершенно справедливо.</segment>
+<group id="11" parent="19" relname="span" type="span"></group>
+<group id="12" parent="1" relname="elaboration" type="span"></group>
+<group id="13" parent="12" relname="span" type="span"></group>
+<group id="14" parent="2" relname="elaboration" type="span"></group>
+<group id="15" parent="13" relname="elaboration" type="span"></group>
+<group id="16" parent="15" relname="contrast" type="span"></group>
+<group id="17" parent="15" relname="contrast" type="span"></group>
+<group id="18" parent="9" relname="cause-effect" type="span"></group>
+<group id="19" type="span"></group>
+</body>
+</rst>

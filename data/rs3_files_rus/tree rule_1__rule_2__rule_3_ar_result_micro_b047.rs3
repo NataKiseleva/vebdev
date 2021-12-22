@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="sequence" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Противозачаточные таблетки обладают рядом побочных эффектов.</segment>
+<segment id="2" parent="7" relname="contrast">Дифференцированный анализ этих побочных эффектов невозможен для непрофессионала без медицинской консультации.</segment>
+<segment id="3" parent="8" relname="contrast">Однако, они чётко указаны на вкладыше в упаковке,</segment>
+<segment id="4" parent="8" relname="contrast">а любая женщина имеет право требовать раннего прекращения беременности.</segment>
+<segment id="5" parent="9" relname="sequence">Противозачаточные таблетки следует назначать только после консультации с врачом или терапевтом.</segment>
+<group id="6" parent="9" relname="sequence" type="span"></group>
+<group id="7" parent="1" relname="elaboration" type="span"></group>
+<group id="8" parent="7" relname="contrast" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

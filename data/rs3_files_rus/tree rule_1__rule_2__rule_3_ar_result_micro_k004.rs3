@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="contrast">Супермаркетам и торговым центрам следует разрешить работать в выходные и праздничные дни.Это может внести изменения в работу сотрудников, которые непросто реализовать.</segment>
+<segment id="2" parent="9" relname="same-unit">Однако, особенно для посетителей, которые работают по будням,</segment>
+<segment id="3" parent="9" relname="same-unit">это будет отличной возможностью избежать нервотрепки в течение недели.</segment>
+<segment id="4" parent="5" relname="condition">Учитывая растущую дигитализацию общества,</segment>
+<segment id="5" parent="11" relname="span">традиционная модель выходных скоро устареет.</segment>
+<segment id="6" parent="12" relname="joint">Многие европейские страны, например: Нидерланды, Швеция и Великобритания, уже поняли это</segment>
+<segment id="7" parent="12" relname="joint">и успешно изменили часы работы магазинов для розничных торговцев.</segment>
+<group id="8" parent="13" relname="span" type="span"></group>
+<group id="9" parent="8" relname="contrast" type="span"></group>
+<group id="10" parent="8" relname="elaboration" type="span"></group>
+<group id="11" parent="10" relname="span" type="span"></group>
+<group id="12" parent="11" relname="elaboration" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

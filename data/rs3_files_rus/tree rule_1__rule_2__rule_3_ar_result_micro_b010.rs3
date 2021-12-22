@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="10" relname="span">Альтернативные методы лечения должны субсидироваться так же, как и традиционные,</segment>
+<segment id="2" relname="cause-effect">поскольку и те и другие могут применяться</segment>
+<segment id="3" parent="10" relname="purpose">для профилактики,</segment>
+<segment id="4" parent="8" relname="span">привести к смягчению или излечению болезни.</segment>
+<segment id="5" parent="12" relname="span">Кроме того, в интересах страховщиков признать альтернативную медицину,</segment>
+<segment id="6" parent="5" relname="cause-effect">так как она предоставляет шанс на выздоровление.</segment>
+<segment id="7" parent="12" relname="elaboration">В конце концов, не имеет значения, имеют ли те, кто назначает лечение, «титул» врача.</segment>
+<group id="8" parent="13" relname="joint" type="span"></group>
+<group id="9" parent="4" relname="cause-effect" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" parent="13" relname="joint" type="span"></group>
+<group id="12" parent="11" relname="span" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

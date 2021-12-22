@@ -1,0 +1,27 @@
+<rst>
+<header>
+<relations>
+<rel name="preparation" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="concession" type="rst"></rel>
+<rel name="comparison" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="13" relname="span">Ни у кого не должно быть возможности купить противозачаточные таблетки без рецепта.</segment>
+<segment id="2" parent="9" relname="span">Хотя было бы очень удобно избежать смущения</segment>
+<segment id="3" parent="2" relname="condition">при посещении врача или ночной поездки в поликлинику.</segment>
+<segment id="4" parent="10" relname="span">Женщин следует информировать о существующих рисках.</segment>
+<segment id="5" parent="12" relname="comparison">Они должны проходить гинекологическое обследование,</segment>
+<segment id="6" parent="12" relname="comparison">прежде чем принимать эти таблетки.</segment>
+<segment id="7" parent="11" relname="joint">Кроме того, существует риск того, что женщины будут использовать противозачаточные таблетки, купленные без рецепта, вместо других средств контрацепции.</segment>
+<group id="8" parent="1" relname="concession" type="span"></group>
+<group id="9" parent="10" relname="preparation" type="span"></group>
+<group id="10" parent="8" relname="span" type="span"></group>
+<group id="11" parent="4" relname="elaboration" type="span"></group>
+<group id="12" parent="11" relname="joint" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

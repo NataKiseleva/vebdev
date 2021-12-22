@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Каждый день пассажирам в метро, поездах и автобусах докучают хулиганы и пьяницы.</segment>
+<segment id="2" parent="8" relname="cause-effect">Правила проезда в общественном транспорте также никто не читает.</segment>
+<segment id="3" parent="8" relname="span">Поэтому нужно больше полицейских в общественном транспорте,</segment>
+<segment id="4" parent="3" relname="condition">даже если у компаний и есть своя охрана.</segment>
+<segment id="5" parent="9" relname="joint">Пассажиры, несомненно, будут чувствовать себя в большей безопасности.</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="1" relname="elaboration" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

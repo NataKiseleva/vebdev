@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="solutionhood" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Выход на пенсию в 63 года – это то, чего каждый, кто трудился (без остановки) до этого момента, безусловно, заслуживает.</segment>
+<segment id="2" parent="9" relname="span">Остаётся только вопрос, будет ли этот ранний «досуг» более приятным,</segment>
+<segment id="3" parent="10" relname="contrast">если вы не знаете, что делать целыми днями,</segment>
+<segment id="4" parent="10" relname="contrast">а по статистике вам осталось ещё почти 20 (!!!) лет?</segment>
+<segment id="5" parent="11" relname="span">Кроме того, человек не принимает должной ответственности за общество,</segment>
+<segment id="6" parent="12" relname="span">если отказывается от своей высококвалифицированной работы,</segment>
+<segment id="7" parent="6" relname="purpose">для которой он обладает необходимым опытом и здоровьем, раньше, чем необходимо, из личных причин.</segment>
+<group id="8" parent="11" relname="solutionhood" type="span"></group>
+<group id="9" parent="1" relname="interpretation-evaluation" type="span"></group>
+<group id="10" parent="2" relname="condition" type="span"></group>
+<group id="11" parent="13" relname="span" type="span"></group>
+<group id="12" parent="5" relname="condition" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

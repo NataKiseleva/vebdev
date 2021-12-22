@@ -1,0 +1,18 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="joint">Лицензионный сбор на теле- и радиовещание может взиматься только со всех граждан/домохозяйств в равной степени.Критики программы отмечают, что они не пользуются тем, что предлагает государственное вещание. Я действительно сомневаюсь, что существует человек, который ни разу хотя бы опосредованно не посмотрел передачу государственного вещания. Как бы то ни было, контролировать это и больше собирать индивидуализированного налога невозможно.</segment>
+<segment id="2" parent="5" relname="same-unit">Как и при выборе других предметов культуры и инфраструктуры,</segment>
+<segment id="3" parent="6" relname="span">государственное вещание нужно финансировать</segment>
+<segment id="4" parent="3" relname="condition">вне зависимости от того, пользуются им отдельные люди или нет.</segment>
+<group id="5" parent="7" relname="joint" type="span"></group>
+<group id="6" parent="5" relname="same-unit" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

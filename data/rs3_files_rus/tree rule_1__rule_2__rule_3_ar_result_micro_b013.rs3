@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="comparison" type="multinuc"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="comparison">Разумеется, страховые компании должны покрывать расходы на альтернативную медицину.</segment>
+<segment id="2" parent="7" relname="contrast">Возможно, не все практики и подходы, объединённые в этом термине, доказаны клиническими испытаниями,</segment>
+<segment id="3" parent="7" relname="contrast">но именно их положительный эффект продемонстрировал свою полезность в поддержке «западной» медицины.</segment>
+<segment id="4" parent="8" relname="span">Кроме того, многие врачи общей практики и так предлагают подобные консультации и методы лечения параллельно с традиционными</segment>
+<segment id="5" parent="4" relname="elaboration">— а кто будет ставить под сомнение их объём опыта?</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="6" relname="comparison" type="span"></group>
+<group id="8" parent="9" relname="joint" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

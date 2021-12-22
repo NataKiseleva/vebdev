@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="concession" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Нам стоит съездить на Балтийское море на выходные.</segment>
+<segment id="2" parent="8" relname="joint">Прогноз сообщает,что для пляжа погода будет замечательная,</segment>
+<segment id="3" parent="8" relname="joint">и терять такую возможность нельзя,</segment>
+<segment id="4" parent="8" relname="concession">хоть мне и надо готовить презентацию ко вторнику.</segment>
+<segment id="5" parent="9" relname="joint">К тому же, можно будет поехать в большой удобной машине моих предков.</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="1" relname="cause-effect" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

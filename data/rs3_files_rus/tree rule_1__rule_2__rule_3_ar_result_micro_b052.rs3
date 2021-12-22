@@ -1,0 +1,23 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="joint">Хотя уровень нагрузки во многих профессиях всё выше,</segment>
+<segment id="2" parent="8" relname="joint">и физическое и психологическое напряжение сотрудников неуклонно растёт,</segment>
+<segment id="3" parent="8" relname="elaboration">установленный законом пенсионный возраст не должен оставаться на уровне 63 лет.</segment>
+<segment id="4" parent="9" relname="joint">Из-за низкого уровня рождаемости доля пожилого населения и, соответственно, расходы на пенсионные выплаты растут,</segment>
+<segment id="5" parent="10" relname="same-unit">и кроме того,</segment>
+<segment id="6" parent="10" relname="same-unit">благодаря современному здравоохранению большинство людей во многих профессиях физически более приспособлены к работе в старости, чем раньше.</segment>
+<group id="7" parent="9" relname="cause-effect" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" parent="11" relname="span" type="span"></group>
+<group id="10" parent="9" relname="joint" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

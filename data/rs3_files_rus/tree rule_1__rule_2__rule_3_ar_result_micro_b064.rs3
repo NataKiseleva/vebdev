@@ -1,0 +1,28 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="11" relname="same-unit">Мне кажется, Берлину, имеющему два аэропорта в черте города,</segment>
+<segment id="2" parent="11" relname="same-unit">повезло десятилетями избегать авиакатастроф.</segment>
+<segment id="3" parent="12" relname="span">Только лишь по соображениям безопасности я уже нахожу неправильным продолжение их работы.</segment>
+<segment id="4" parent="3" relname="elaboration">Берлину также срочно необходимы районы для бизнеса, промышленности и жилья в черте города.</segment>
+<segment id="5" parent="13" relname="span">Закрытие аэропорта Берлин-Тегель окажет положительное влияние на здоровье сотен тысяч людей, живущих на подходе к аэропорту.</segment>
+<segment id="6" parent="5" relname="elaboration">Из-за этих факторов (жильё, здоровье и занятость) эти районы улучшатся экономически.</segment>
+<segment id="7" parent="8" relname="cause-effect">После того, как откроется новый аэропорт,</segment>
+<segment id="8" parent="14" relname="span">Берлин-Тегель несомненно следует закрыть.</segment>
+<group id="9" parent="15" relname="joint" type="span"></group>
+<group id="10" parent="9" relname="joint" type="span"></group>
+<group id="11" parent="10" relname="contrast" type="span"></group>
+<group id="12" parent="10" relname="contrast" type="span"></group>
+<group id="13" parent="9" relname="joint" type="span"></group>
+<group id="14" parent="15" relname="joint" type="span"></group>
+<group id="15" type="span"></group>
+</body>
+</rst>

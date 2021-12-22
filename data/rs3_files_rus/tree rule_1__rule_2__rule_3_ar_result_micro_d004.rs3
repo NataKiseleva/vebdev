@@ -1,0 +1,24 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="cause-effect">Антивирусное ПО защищает пользователей компьютера от опасностей интернета.</segment>
+<segment id="2" parent="7" relname="span">Поэтому каждый должен иметь антивирусную программу на своём ПК.</segment>
+<segment id="3" parent="9" relname="span">Стоит признать, что обычно они не могут защитить вас от заражения вирусом,</segment>
+<segment id="4" parent="3" relname="cause-effect">потому что они реагируют только на известные угрозы.</segment>
+<segment id="5" parent="6" relname="condition">Но как только находится защита от нового вируса,</segment>
+<segment id="6" parent="10" relname="span">все получают её в кратчайшие сроки через автоматическое обновление.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="2" relname="elaboration" type="span"></group>
+<group id="9" parent="8" relname="contrast" type="span"></group>
+<group id="10" parent="8" relname="contrast" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

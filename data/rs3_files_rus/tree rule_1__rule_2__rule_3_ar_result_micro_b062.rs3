@@ -1,0 +1,25 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Я не считаю,что возраст выхода на пенсию должен быть установлен на 63 года.</segment>
+<segment id="2" parent="1" relname="interpretation-evaluation">Это будет означать, что в будущем организациям будет не хватать рабочей силы.</segment>
+<segment id="3" parent="11" relname="span">Вступительный этап выхода на пенсию в 63 года также будет проблемой,</segment>
+<segment id="4" parent="3" relname="cause-effect">так как многие нынешние работники преклонного возраста смогут сразу выйти на пенсию.</segment>
+<segment id="5" parent="12" relname="joint">Это наносит ущерб Германии как месту размещения предприятий</segment>
+<segment id="6" parent="12" relname="joint">и оставляет работодателей без переходного периода.</segment>
+<segment id="7" parent="13" relname="joint">Опасность заключается в том, что молодого опытного персонала недостаточно в необходимых количествах.</segment>
+<group id="8" parent="13" relname="joint" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="9" relname="elaboration" type="span"></group>
+<group id="11" parent="10" relname="span" type="span"></group>
+<group id="12" parent="11" relname="interpretation-evaluation" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

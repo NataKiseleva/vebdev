@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Энергосберегающие лампы содержат значительное количество токсинов.</segment>
+<segment id="2" parent="8" relname="cause-effect">К примеру, доступная в продаже лампа может содержать до пяти миллиграммов ртути.</segment>
+<segment id="3" parent="8" relname="span">Поэтому их нужно снять с продажи в случае,</segment>
+<segment id="4" parent="3" relname="condition">если их можно разбить.</segment>
+<segment id="5" parent="6" relname="contrast">Но, к сожалению, именно этого и не происходит.</segment>
+<group id="6" parent="1" relname="elaboration" type="span"></group>
+<group id="7" parent="6" relname="contrast" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

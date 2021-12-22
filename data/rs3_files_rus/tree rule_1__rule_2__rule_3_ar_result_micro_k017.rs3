@@ -1,0 +1,27 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Выход на пенсию в 63 года более не является рациональным для общества,</segment>
+<segment id="2" parent="9" relname="joint">поскольку среди населения Германии, с демографической точки зрения, несоразмерно велико количество пожилых людей,</segment>
+<segment id="3" parent="9" relname="joint">и постоянно фиксируется снижение показателя рождаемости.</segment>
+<segment id="4" parent="11" relname="contrast">Предполагается, что число иммигрантов в Германии постоянно растет,</segment>
+<segment id="5" parent="11" relname="contrast">но без достаточного числа высококвалифицированных молодых работников,</segment>
+<segment id="6" parent="12" relname="span">вряд ли есть возможность</segment>
+<segment id="7" parent="6" relname="purpose">для адекватного пенсионного финансирования граждан.</segment>
+<group id="8" parent="13" relname="span" type="span"></group>
+<group id="9" parent="1" relname="cause-effect" type="span"></group>
+<group id="10" parent="8" relname="interpretation-evaluation" type="span"></group>
+<group id="11" parent="12" relname="cause-effect" type="span"></group>
+<group id="12" parent="10" relname="span" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

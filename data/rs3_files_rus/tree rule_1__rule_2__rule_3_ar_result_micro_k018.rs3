@@ -1,0 +1,33 @@
+<rst>
+<header>
+<relations>
+<rel name="preparation" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="concession" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="12" relname="span">Наше общество находится в опасности перегрева</segment>
+<segment id="2" relname="cause-effect">из-за того, что оно никогда не берёт паузу.</segment>
+<segment id="3" parent="4" relname="preparation">Хотя политики подчеркивают христианский характер нашей страны,</segment>
+<segment id="4" parent="14" relname="span">в последние 20 лет выходной день в воскресенье все больше приносился в жертву коммерческой деятельности.</segment>
+<segment id="5" parent="15" relname="span">Но ведь цель выходного дня - не просто найти время,</segment>
+<segment id="6" parent="5" relname="purpose">чтобы пойти в церковь.</segment>
+<segment id="7" parent="11" relname="interpretation-evaluation">Скорее, цель выходных – дать людям возможность морально отдохнуть.</segment>
+<segment id="8" parent="16" relname="span">Вот почему должен быть один день в неделю,</segment>
+<segment id="9" parent="8" relname="condition">когда супермаркеты и торговые центры остаются закрытыми.</segment>
+<group id="10" parent="17" relname="joint" type="span"></group>
+<group id="11" parent="10" relname="span" type="span"></group>
+<group id="12" parent="11" relname="span" type="span"></group>
+<group id="13" parent="12" relname="concession" type="span"></group>
+<group id="14" parent="13" relname="contrast" type="span"></group>
+<group id="15" parent="13" relname="contrast" type="span"></group>
+<group id="16" parent="17" relname="joint" type="span"></group>
+<group id="17" type="span"></group>
+</body>
+</rst>

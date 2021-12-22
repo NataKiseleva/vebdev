@@ -1,0 +1,32 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="2" relname="cause-effect">В течение многих лет в Берлине не хватало жилья,</segment>
+<segment id="2" parent="13" relname="span">поэтому использовать Темпельхофское поле,</segment>
+<segment id="3" parent="13" relname="cause-effect">предоставляющее огромное и почти не используемое сейчас открытое пространство, под жилые дома представляется разумной идеей.</segment>
+<segment id="4" parent="5" relname="cause-effect">Так как территория принадлежит федеративному государству, или федерации,</segment>
+<segment id="5" parent="14" relname="span">её можно было бы использовать даже как социальное жильё с доступной арендной платой.</segment>
+<segment id="6" parent="10" relname="joint">Необходимо признать, что поля стали привлекательным местом отдыха со спортивными площадками для многих берлинцев и гостей города, особенно весной и летом.</segment>
+<segment id="7" parent="16" relname="condition">Если, однако, можно найти компромисс между зелёными насаждениями и жилыми строениями,</segment>
+<segment id="8" parent="16" relname="span">Темпельхофское поле несомненно стоит использовать</segment>
+<segment id="9" parent="8" relname="purpose">для строительства жилых комплексов.</segment>
+<group id="10" parent="17" relname="contrast" type="span"></group>
+<group id="11" parent="10" relname="joint" type="span"></group>
+<group id="12" parent="11" relname="span" type="span"></group>
+<group id="13" parent="12" relname="span" type="span"></group>
+<group id="14" parent="12" relname="interpretation-evaluation" type="span"></group>
+<group id="15" parent="17" relname="contrast" type="span"></group>
+<group id="16" parent="15" relname="span" type="span"></group>
+<group id="17" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Противозачаточные таблетки должны отпускаться в аптеках без рецепта.</segment>
+<segment id="2" parent="7" relname="joint">Даже современные средства контрацепции не исключают ошибок и проблем,</segment>
+<segment id="3" parent="7" relname="joint">и нежелательная беременность может оказать серьёзное влияние как на родителей, так и на ребёнка на всю их оставшуюся жизнь.</segment>
+<segment id="4" parent="8" relname="contrast">Некоторых беспокоит неосторожное использование таких мер,</segment>
+<segment id="5" parent="8" relname="contrast">но эта проблема должна решаться через полноценное предварительное образование.</segment>
+<group id="6" parent="9" relname="span" type="span"></group>
+<group id="7" parent="1" relname="elaboration" type="span"></group>
+<group id="8" parent="6" relname="elaboration" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

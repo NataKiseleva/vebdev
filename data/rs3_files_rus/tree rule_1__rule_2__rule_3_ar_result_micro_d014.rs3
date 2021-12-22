@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Мне кажется, Фриц никогда в жизни не дрался.</segment>
+<segment id="2" parent="7" relname="contrast">В детстве он бывало вздорил с другими мальчиками в хоре,</segment>
+<segment id="3" parent="7" relname="contrast">но это вряд ли считается настоящей дракой.</segment>
+<segment id="4" parent="8" relname="span">И он всегда трусит,</segment>
+<segment id="5" parent="4" relname="condition">когда начинаются проблемы.</segment>
+<group id="6" parent="1" relname="elaboration" type="span"></group>
+<group id="7" parent="6" relname="span" type="span"></group>
+<group id="8" parent="7" relname="interpretation-evaluation" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,18 @@
+<rst>
+<header>
+<relations>
+<rel name="comparison" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Смертная казнь не является решением,</segment>
+<segment id="2" relname="cause-effect">поскольку нельзя исключать ошибки в судебном процессе.</segment>
+<segment id="3" parent="5" relname="contrast">Тем не менее, преступники не должны отбывать своё наказание в современных роскошных тюремных камерах.В конце концов, есть преступники, которым нравится «жизнь» в тюрьме за приличную плату, без уплаты налогов, без привычного стресса от работы.</segment>
+<segment id="4" parent="7" relname="comparison">Тем не менее, государству нужна смертная казнь как средство предотвращения ужасных преступлений.</segment>
+<group id="5" parent="7" relname="comparison" type="span"></group>
+<group id="6" parent="5" relname="contrast" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,19 @@
+<rst>
+<header>
+<relations>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="joint" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="contrast">Оплата телевизионной лицензии должна взиматься только с тех, кто фактически является зрителем программ общественного вещания.В конце концов, в Германии есть много людей, которые платят за это, хотя они просто используют компьютер для работы.</segment>
+<segment id="2" parent="8" relname="joint">Тем не менее, плата взимается со всех, кто не подает заявку на отказ,</segment>
+<segment id="3" parent="8" relname="joint">независимо от того, сколько приемных устройств на самом деле имеются в доме</segment>
+<segment id="4" parent="7" relname="joint">и как они используются.</segment>
+<segment id="5" parent="9" relname="contrast">Однако очевидно, что сотрудники, взимающие с телезрителя лецензионную плату, не могут проверить использование каждого отдельного устройства.</segment>
+<group id="6" parent="9" relname="contrast" type="span"></group>
+<group id="7" parent="6" relname="contrast" type="span"></group>
+<group id="8" parent="7" relname="joint" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

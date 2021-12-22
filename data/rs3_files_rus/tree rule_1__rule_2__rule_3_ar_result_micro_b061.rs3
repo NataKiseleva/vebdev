@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Повышенные штрафы за собачьи «кучки» бессмысленны,</segment>
+<segment id="2" relname="condition">пока недостаточно сотрудников</segment>
+<segment id="3" parent="7" relname="purpose">для их соблюдения.</segment>
+<segment id="4" parent="8" relname="contrast">В отдельных случаях они, конечно, могут служить сдерживающим фактором,</segment>
+<segment id="5" parent="8" relname="contrast">в целом же чистая окружающая среда и положительный пример со стороны других людей скорее заставят владельца собаки убрать за своим питомцем, чем возможный штраф.</segment>
+<group id="6" parent="9" relname="span" type="span"></group>
+<group id="7" parent="6" relname="span" type="span"></group>
+<group id="8" parent="6" relname="elaboration" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

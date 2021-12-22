@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="evidence" type="rst"></rel>
+<rel name="sequence" type="multinuc"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Швайнштайгер травмирован уже третий день.</segment>
+<segment id="2" parent="9" relname="span">Нам срочно нужен полузащитник на замену для предстоящего матча.</segment>
+<segment id="3" parent="12" relname="span">Врачу удалось выписать его,</segment>
+<segment id="4" parent="3" relname="elaboration">как способного играть,</segment>
+<segment id="5" parent="11" relname="sequence">после того, как ему дали достаточно болеутоляющих,</segment>
+<segment id="6" parent="10" relname="contrast">но в дальнейшем это только вызовет осложнения.</segment>
+<segment id="7" parent="13" relname="joint">К тому же, «свежая кровь» всегда ободряет команду.</segment>
+<group id="8" parent="13" relname="joint" type="span"></group>
+<group id="9" parent="1" relname="elaboration" type="span"></group>
+<group id="10" parent="2" relname="evidence" type="span"></group>
+<group id="11" parent="10" relname="contrast" type="span"></group>
+<group id="12" parent="11" relname="sequence" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

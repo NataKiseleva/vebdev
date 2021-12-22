@@ -1,0 +1,35 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="13" relname="cause-effect">Университеты Германии ни в коем случае не должны взимать плату за обучение.</segment>
+<segment id="2" parent="14" relname="joint">Это будет означать, что только дети богатых родителей или только те, кто имеют уже какое-либо образование</segment>
+<segment id="3" parent="14" relname="joint">и работают неполный рабочий день во время учебы,</segment>
+<segment id="4" parent="13" relname="joint">вообще смогут подать заявку на получение учёной степени.</segment>
+<segment id="5" parent="6" relname="cause-effect">Даже обучаясь бесплатно,</segment>
+<segment id="6" parent="18" relname="span">половина студентов вынуждена работать во время учебы</segment>
+<segment id="7" parent="17" relname="joint">и, следовательно, имеет меньше времени</segment>
+<segment id="8" parent="17" relname="purpose">для учебы или отдыха.</segment>
+<segment id="9" parent="19" relname="contrast">Кто-то может утверждать, что повышение платы за обучение позволит учреждениям иметь лучшее оборудование.</segment>
+<segment id="10" parent="20" relname="same-unit">Но что хорошего в отлично оборудованном университете,</segment>
+<segment id="11" parent="20" relname="same-unit">если он на самом деле не позволяет большинству умных людей расширять свой кругозор с помощью всего этого великолепного оборудования?</segment>
+<group id="12" parent="21" relname="joint" type="span"></group>
+<group id="13" parent="12" relname="span" type="span"></group>
+<group id="14" parent="13" relname="joint" type="span"></group>
+<group id="15" parent="21" relname="joint" type="span"></group>
+<group id="16" parent="15" relname="span" type="span"></group>
+<group id="17" parent="16" relname="span" type="span"></group>
+<group id="18" parent="17" relname="joint" type="span"></group>
+<group id="19" parent="16" relname="elaboration" type="span"></group>
+<group id="20" parent="19" relname="contrast" type="span"></group>
+<group id="21" type="span"></group>
+</body>
+</rst>

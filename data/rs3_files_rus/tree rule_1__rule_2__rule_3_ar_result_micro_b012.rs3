@@ -1,0 +1,24 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="joint">Некоторым идея школьной формы может казаться неуместной в современности,</segment>
+<segment id="2" parent="8" relname="joint">или слишком большим вмешательством в свободу действий учащихся или родителей.</segment>
+<segment id="3" parent="4" relname="cause-effect">Однако сегодня имеет место тот факт что студенты в школах, где форма якобы не требуется,</segment>
+<segment id="4" parent="9" relname="span">носят её в виде фирменной одежды определённых брендов.</segment>
+<segment id="5" parent="10" relname="span">Просто скроенная практичная одежда выровняет визуальный образ школы</segment>
+<segment id="6" parent="5" relname="purpose">и позволит обратить внимание на характер и достижения учеников, а не на их покупательную способность.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="7" relname="contrast" type="span"></group>
+<group id="9" parent="7" relname="contrast" type="span"></group>
+<group id="10" parent="7" relname="elaboration" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>
