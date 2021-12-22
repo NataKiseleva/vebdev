@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="condition" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="joint">Штраф за собачьи «кучки» на асфальте должен быть больше.</segment>
+<segment id="2" parent="9" relname="joint">Собачьи «кучки» мерзкие</segment>
+<segment id="3" parent="9" relname="joint">и представляют санитарно-гигиеническую проблему.</segment>
+<segment id="4" parent="7" relname="joint">Другие животные, дети и взрослые не имеют права оставлять на асфальте помёт.</segment>
+<segment id="5" parent="6" relname="condition">Если убирать отходы безотлагательно,</segment>
+<segment id="6" parent="10" relname="span">платить штраф не придётся.</segment>
+<group id="7" parent="11" relname="joint" type="span"></group>
+<group id="8" parent="7" relname="joint" type="span"></group>
+<group id="9" parent="8" relname="joint" type="span"></group>
+<group id="10" parent="11" relname="joint" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

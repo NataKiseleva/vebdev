@@ -1,0 +1,22 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Баскетбольная команда Берлина только что закончила отрезвляющий сезон.</segment>
+<segment id="2" relname="elaboration">Особенно в играх на своём поле команда не оправдала ожиданий.</segment>
+<segment id="3" parent="8" relname="span">Печальный момент: проигрыш со счётом 60-87 считающейся слабой команде из Мангейма на переполненном стадионе.</segment>
+<segment id="4" parent="10" relname="contrast">Конечно, команда заняла-таки третье место в лиге,</segment>
+<segment id="5" parent="10" relname="contrast">но, учитывая стоимость именитых игроков,</segment>
+<segment id="6" parent="9" relname="span">можно было ожидать большего.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="7" relname="elaboration" type="span"></group>
+<group id="9" parent="3" relname="elaboration" type="span"></group>
+<group id="10" parent="6" relname="cause-effect" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

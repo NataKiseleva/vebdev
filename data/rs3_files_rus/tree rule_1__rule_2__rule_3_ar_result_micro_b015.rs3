@@ -1,0 +1,29 @@
+<rst>
+<header>
+<relations>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elementary" type="rst"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="15" relname="span">Ну, я, будучи работающим человеком, нахожу очень удобным иметь возможность сходить за покупками хотя бы в выходные.</segment>
+<segment id="2" parent="10" relname="contrast">Конечно, другим приходится работать в магазинах по выходным,</segment>
+<segment id="3" parent="11" relname="joint">но они могут брать отгулы в рабочие дни</segment>
+<segment id="4" parent="12" relname="same-unit_NN">и заниматься своими делами,</segment>
+<segment id="5" parent="14" relname="contrast">К тому же, государство хочет, чтобы я тратил деньги,</segment>
+<segment id="6" parent="14" relname="contrast">а как мне тратить деньги,</segment>
+<segment id="7" parent="14" relname="elementary">если магазины по выходным не работают?</segment>
+<segment id="8" parent="10" relname="condition">пока я сижу в офисе.</segment>
+<group id="9" parent="1" relname="elaboration" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" parent="10" relname="contrast" type="span"></group>
+<group id="12" parent="11" relname="joint" type="span"></group>
+<group id="13" parent="12" relname="same-unit_NN" type="span"></group>
+<group id="14" parent="13" relname="span" type="span"></group>
+<group id="15" type="span"></group>
+</body>
+</rst>

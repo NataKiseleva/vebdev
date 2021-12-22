@@ -1,0 +1,31 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="2" relname="condition">Покупая незаконно приобретённую налоговую информацию о горожанах,</segment>
+<segment id="2" parent="13" relname="span">государство не только само нарушает закон,</segment>
+<segment id="3" parent="12" relname="joint">но и оплачивает деятельность преступников.</segment>
+<segment id="4" parent="14" relname="span">К тому же, покупка таких дисков сейчас не является необходимой,</segment>
+<segment id="5" parent="4" relname="cause-effect">так как из-за изменившихся условий в бизнесе многие банки призывают своих клиентов явиться с повинной.</segment>
+<segment id="6" parent="10" relname="span">Поэтому о приобретении компакт-дисков с налоговыми данными о правонарушителях не может быть и речи.</segment>
+<segment id="7" parent="16" relname="same-unit">Неоспоримо, однако, что, приобретая такие данные,</segment>
+<segment id="8" parent="16" relname="same-unit">государство усиливает давление на лиц, уклоняющихся от уплаты налогов,</segment>
+<segment id="9" parent="15" relname="joint">и повышает их склонность прийти с повинной.</segment>
+<group id="10" parent="17" relname="contrast" type="span"></group>
+<group id="11" parent="6" relname="cause-effect" type="span"></group>
+<group id="12" parent="11" relname="joint" type="span"></group>
+<group id="13" parent="12" relname="joint" type="span"></group>
+<group id="14" parent="11" relname="joint" type="span"></group>
+<group id="15" parent="17" relname="contrast" type="span"></group>
+<group id="16" parent="15" relname="joint" type="span"></group>
+<group id="17" type="span"></group>
+</body>
+</rst>

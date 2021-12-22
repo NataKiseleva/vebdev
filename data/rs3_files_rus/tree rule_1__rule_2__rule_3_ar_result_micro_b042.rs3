@@ -1,0 +1,31 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="10" relname="span">Государство не должно ограничивать медикаменты или медицинские процедуры из моральных побуждений,</segment>
+<segment id="2" relname="condition">если они не причиняют вреда окружающим.</segment>
+<segment id="3" parent="11" relname="span">Но без необходимости получения рецепта исчезает также и необходимость медицинской консультации перед приёмом.</segment>
+<segment id="4" parent="14" relname="span">Поскольку воздействие противозачаточных таблеток является настолько сильным,</segment>
+<segment id="5" parent="4" relname="cause-effect">частично из-за абортивного эффекта,</segment>
+<segment id="6" parent="13" relname="span">распространять их без медицинской консультации было бы неуместно.</segment>
+<segment id="7" parent="16" relname="joint">Лёгкий доступ к противозачаточным может так же привести к тому, что они будут казаться более простым методом контрацепции по сравнению с другими,</segment>
+<segment id="8" parent="16" relname="joint">оказывающими меньшее воздействие на здоровье.</segment>
+<segment id="9" parent="16" relname="elaboration">Например, эти таблетки могут привести к сокращению использования презервативов и, следовательно, к учащению случаев заражения СПИДом.</segment>
+<group id="10" parent="17" relname="contrast" type="span"></group>
+<group id="11" parent="17" relname="contrast" type="span"></group>
+<group id="12" parent="3" relname="cause-effect" type="span"></group>
+<group id="13" parent="12" relname="span" type="span"></group>
+<group id="14" parent="6" relname="cause-effect" type="span"></group>
+<group id="15" parent="13" relname="elaboration" type="span"></group>
+<group id="16" parent="15" relname="span" type="span"></group>
+<group id="17" type="span"></group>
+</body>
+</rst>

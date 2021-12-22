@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Сегодня я удалю свой аккаунт в Facebook.</segment>
+<segment id="2" relname="cause-effect">Не только потому, что я постоянно поражена тем, кто набивается ко мне в друзья.</segment>
+<segment id="3" parent="6" relname="joint">Я также устала от того, что мои данные увеличивают рыночную стоимость этой копрорации.</segment>
+<segment id="4" parent="8" relname="contrast">Facebook участливо предупреждает меня,что я могу потерять связь со своими друзьями.</segment>
+<segment id="5" parent="8" relname="contrast">Однако теперь у меня будет для них гораздо больше времени.</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="6" relname="joint" type="span"></group>
+<group id="8" parent="9" relname="joint" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

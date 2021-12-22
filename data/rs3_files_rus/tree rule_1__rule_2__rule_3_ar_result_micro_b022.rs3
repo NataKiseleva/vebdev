@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="13" relname="span">Нет, пенсионный возраст должен быть снова повышен до 65 лет.</segment>
+<segment id="2" parent="11" relname="contrast">Люди в среднем живут дольше,</segment>
+<segment id="3" parent="11" relname="contrast">но не глупеют</segment>
+<segment id="4" parent="10" relname="joint">и не становятся</segment>
+<segment id="5" parent="10" relname="cause-effect">из-за этого слабее здоровьем.</segment>
+<segment id="6" parent="7" relname="cause-effect">Без старшего поколения мы бы потеряли огромный объём накопленного опыта.</segment>
+<segment id="7" parent="12" relname="span">И пришлось бы предоставлять пожилым людям больше способов провести свободное время.</segment>
+<group id="8" parent="1" relname="elaboration" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" parent="10" relname="joint" type="span"></group>
+<group id="12" parent="9" relname="elaboration" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

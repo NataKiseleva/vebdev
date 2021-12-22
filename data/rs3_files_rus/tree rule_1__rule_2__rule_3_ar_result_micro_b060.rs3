@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="contrast">Небольшие магазины могут быть потенциально перегружены дополнительными рабочими часами в выходные и праздники,</segment>
+<segment id="2" parent="7" relname="contrast">но с другой стороны, супермаркеты и большие торговые центры и так уже доминируют на рынке.</segment>
+<segment id="3" parent="8" relname="span">Поэтому небольшие магазины могут получить выгоду от дополнительной свободы,</segment>
+<segment id="4" parent="3" relname="cause-effect">так как клиенты по выходным в среднем более расслаблены.</segment>
+<segment id="5" parent="9" relname="joint">Работа магазинов в выходные и праздники в этом случае поможет и клиентам, и магазинам.</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="8" relname="cause-effect" type="span"></group>
+<group id="8" parent="6" relname="span" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

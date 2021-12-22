@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Ни одному человеку или группе людей не должно быть снова разрешено решать вопросы жизни и смерти.</segment>
+<segment id="2" parent="3" relname="cause-effect">Суд тоже может ошибаться.</segment>
+<segment id="3" parent="7" relname="span">Поэтому в Германии не следует вводить высшую меру наказания!</segment>
+<segment id="4" parent="8" relname="joint">Каждый человек, даже совершивший ужасное преступление, может раскаться в содеянном</segment>
+<segment id="5" parent="8" relname="joint">и измениться.</segment>
+<group id="6" parent="1" relname="cause-effect" type="span"></group>
+<group id="7" parent="6" relname="span" type="span"></group>
+<group id="8" parent="7" relname="elaboration" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,32 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="12" relname="span">Спецслужбы должны быть жёстче регламентированы</segment>
+<segment id="2" relname="condition">во избежание чрезмерного надзора.</segment>
+<segment id="3" parent="4" relname="cause-effect">В конце концов, спецслужбы имеют тенденцию жить своей жизнью (страна внутри страны),</segment>
+<segment id="4" parent="13" relname="span">что безответственно для демократических государств.</segment>
+<segment id="5" parent="15" relname="cause-effect">Кроме того, спецслужбы значительно вмешиваются в частную жизнь граждан</segment>
+<segment id="6" parent="15" relname="span">и поэтому должны жёстко контролироваться,</segment>
+<segment id="7" parent="6" relname="purpose">чтобы исключить злоупотребления.</segment>
+<segment id="8" parent="16" relname="span">Однако, парламентский контроль затрудняет работу спецслужб,</segment>
+<segment id="9" parent="8" relname="cause-effect">так как он ставит под угрозу секретность и сохранность конфиденциальной информации и информаторов.</segment>
+<group id="10" parent="17" relname="contrast" type="span"></group>
+<group id="11" parent="10" relname="joint" type="span"></group>
+<group id="12" parent="11" relname="span" type="span"></group>
+<group id="13" parent="12" relname="elaboration" type="span"></group>
+<group id="14" parent="10" relname="joint" type="span"></group>
+<group id="15" parent="14" relname="span" type="span"></group>
+<group id="16" parent="17" relname="contrast" type="span"></group>
+<group id="17" type="span"></group>
+</body>
+</rst>

@@ -51,7 +51,13 @@ def search():
         selected_tags = None if selected_tags == [] else selected_tags
         selected_rels = None if selected_rels == [] else selected_rels
 
+<<<<<<< HEAD
+        print(selected_tags)
         results, text_ids = rst_search(input_query, selected_tags, selected_rels)
+        print(text_ids)
+=======
+        results, text_ids = rst_search(input_query, selected_tags, selected_rels)
+>>>>>>> ec21fdb765d5e27ceaafeec788ee33a6751e72c7
         if type(results) == list:
             list_len = len(results)
             return render_template('paral_res.html', result=results, list_len=list_len, text_ids=text_ids)

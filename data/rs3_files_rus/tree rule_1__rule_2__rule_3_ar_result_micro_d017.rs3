@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="joint">Чрезмерное употребление мяса вредит здоровью.</segment>
+<segment id="2" parent="8" relname="joint">Кроме того, производство мясопродуктов требует сравнительно больших затрат.</segment>
+<segment id="3" parent="7" relname="span">Поэтому нам следует решительно ограничить употребление мяса.</segment>
+<segment id="4" parent="7" relname="interpretation-evaluation">Можно было бы волноваться, что перед фермерами в этом случае встанут экономические проблемы.</segment>
+<segment id="5" parent="9" relname="contrast">Впрочем, ни один серьёзный экономист до сих пор не подтвердил этот прогноз.</segment>
+<group id="6" parent="9" relname="contrast" type="span"></group>
+<group id="7" parent="6" relname="span" type="span"></group>
+<group id="8" parent="3" relname="cause-effect" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

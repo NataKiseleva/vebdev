@@ -1,0 +1,29 @@
+<rst>
+<header>
+<relations>
+<rel name="condition" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="11" relname="span">На самом деле было бы оправданно,</segment>
+<segment id="2" relname="condition">если бы все университеты Германии взимали бы плату за обучение.</segment>
+<segment id="3" parent="4" relname="condition">Пока гарантируется, что средства действительно приносят пользу университетам напрямую,</segment>
+<segment id="4" parent="12" relname="span">можно продолжать расценивать это как социальную справедливость.</segment>
+<segment id="5" parent="13" relname="span">В любом случае, вопрос последующего обучения необходимо решать заранее.</segment>
+<segment id="6" parent="14" relname="joint">Всегда можно взять кредит на обучение</segment>
+<segment id="7" parent="14" relname="joint">или получать стипендию.</segment>
+<segment id="8" parent="15" relname="contrast">Однако, несправедливо обязать людей, не относящихся к научным кругам, оплачивать чужое обучение путём сбора дополнительных налогов.</segment>
+<group id="9" parent="15" relname="contrast" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" parent="10" relname="span" type="span"></group>
+<group id="12" parent="11" relname="elaboration" type="span"></group>
+<group id="13" parent="10" relname="interpretation-evaluation" type="span"></group>
+<group id="14" parent="5" relname="elaboration" type="span"></group>
+<group id="15" type="span"></group>
+</body>
+</rst>

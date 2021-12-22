@@ -1,0 +1,24 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="contrast">Бакалаврская диссертация отражает как содержание, так и методическое наполнение тем, рассмотренных в программе обучения.</segment>
+<segment id="2" parent="8" relname="contrast">Но в ней могут быть допущены ошибки.</segment>
+<segment id="3" parent="4" relname="condition">Если она вносит весомый вклад,</segment>
+<segment id="4" parent="10" relname="span">то выполнение многих хороших домашних заданий, предлагаемых в течение курса, можно не учитывать.</segment>
+<segment id="5" parent="10" relname="interpretation-evaluation">Хорошая оценка за дипломную работу также в значительной степени зависит от помощи преданного своему делу научного руководителя.</segment>
+<segment id="6" parent="11" relname="span">Из-за множества случайных факторов бакалаврская диссертация не должна играть решающую роль.</segment>
+<group id="7" parent="6" relname="cause-effect" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" parent="8" relname="elaboration" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

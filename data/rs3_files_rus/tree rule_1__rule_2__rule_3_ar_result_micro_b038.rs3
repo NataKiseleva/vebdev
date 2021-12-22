@@ -1,0 +1,17 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="5" relname="span">Школьную форму стоит снова ввести в школах.</segment>
+<segment id="2" parent="6" relname="span">Она обеспечивает хотя бы поверхностное равенство в нашем экономически ориентированном обществе.</segment>
+<segment id="3" parent="2" relname="elaboration">Это может снизить уровень дискриминации детей, находящихся в трудном финансовом и/или социальном положении.</segment>
+<segment id="4" parent="7" relname="joint">Кроме того, это бы облегчило обнаружение прогульщиков, которым безнаказанно сходит с рук пропуск уроков.Униформа всегда провоцирует страх потерять индивидуальность, но чего школам сейчас по-настоящему не хватает, так это чувства общности, которое, возможно, будет усилено одинаковым, общим внешним видом.</segment>
+<group id="5" parent="7" relname="joint" type="span"></group>
+<group id="6" parent="1" relname="elaboration" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

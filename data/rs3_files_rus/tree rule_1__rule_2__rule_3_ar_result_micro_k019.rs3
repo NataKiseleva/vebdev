@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="purpose" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="contrast">Меня пугает мысль о телевидении, состоящем исключительно из платных каналов. Принято считать, что вздор  и беспорядок – это то, что хочет видеть большинство людей.Поэтому, это довольно рискованно – предоставлять телезрителю лишь тот набор каналов, который предполагает его тариф.</segment>
+<segment id="2" parent="6" relname="span">Только из общедоступных телевизионных программ зрители могут черпать информацию, не ориентированную на получение какой-либо коммерческой прибыли.</segment>
+<segment id="3" parent="8" relname="same-unit_NN">И поскольку общественный долг заключается в том,</segment>
+<segment id="4" parent="8" relname="same-unit_NN">которые не могут занять свое место в рыночной экономике,</segment>
+<segment id="5" parent="8" relname="purpose">чтобы коллективно финансировать определенные области,</segment>
+<group id="6" parent="9" relname="contrast" type="span"></group>
+<group id="7" parent="2" relname="cause-effect" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

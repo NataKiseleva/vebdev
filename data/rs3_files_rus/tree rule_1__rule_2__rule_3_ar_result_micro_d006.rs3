@@ -1,0 +1,23 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Питеру надо как можно скорее закрывать свою закусочную.</segment>
+<segment id="2" parent="8" relname="contrast">Ценовое давление слишком высоко,</segment>
+<segment id="3" parent="8" relname="contrast">а его клиентура постоянно сокращается.</segment>
+<segment id="4" parent="10" relname="contrast">Конечно, он мог бы устроить ещё одну большую рекламную кампанию,</segment>
+<segment id="5" parent="10" relname="contrast">но она не сработает,</segment>
+<segment id="6" parent="10" relname="condition">если в конце концов весь район вылетит в трубу.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="1" relname="elaboration" type="span"></group>
+<group id="9" parent="7" relname="interpretation-evaluation" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

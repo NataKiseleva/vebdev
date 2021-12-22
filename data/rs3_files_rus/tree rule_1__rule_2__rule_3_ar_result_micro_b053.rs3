@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="evidence" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="10" relname="span">Многие люди отмечают снятие симптомов и жалоб</segment>
+<segment id="2" relname="condition">при помощи комплементарной медицины.</segment>
+<segment id="3" parent="11" relname="span">Однако, нет подтвержденных данных о том, что это не просто эффект плацебо.</segment>
+<segment id="4" parent="5" relname="cause-effect">К тому же, многие виды деятельности в этой области не являются государственно регулируемыми профессиями,</segment>
+<segment id="5" parent="12" relname="span">что позволяет шарлатанам и обманщикам заниматься ими без ведома пациентов.</segment>
+<segment id="6" parent="8" relname="span">Поэтому государственные страховые компании не должны покрывать расходы на подобное лечение.</segment>
+<segment id="7" parent="13" relname="joint">Стоило бы инвестировать больше средств на подготовку и контроль этого сектора занятости со стороны государства и обучение специалистов.</segment>
+<group id="8" parent="13" relname="joint" type="span"></group>
+<group id="9" parent="6" relname="cause-effect" type="span"></group>
+<group id="10" parent="9" relname="contrast" type="span"></group>
+<group id="11" parent="9" relname="contrast" type="span"></group>
+<group id="12" parent="3" relname="evidence" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

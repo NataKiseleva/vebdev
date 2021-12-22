@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Вывод банка из кризиса - очень и очень затратное дело.</segment>
+<segment id="2" relname="elaboration">К примеру, для спасения провалившегося банка “Hypo Real Estate”было выделено трёхзначное число миллиардов из средств налогоплательщиков.</segment>
+<segment id="3" parent="10" relname="joint">Поэтому нельзя позволить</segment>
+<segment id="4" parent="10" relname="joint">и дальше спасать банки.</segment>
+<segment id="5" parent="11" relname="contrast">Политики пытаются успокоить нас тем фактом, что на самом деле потрачен был лишь крохотный процент тех денег.</segment>
+<segment id="6" parent="12" relname="span">Но и этого малого количества достаточно,</segment>
+<segment id="7" parent="6" relname="purpose">чтобы сделать хорошее дело в других областях.</segment>
+<group id="8" parent="13" relname="span" type="span"></group>
+<group id="9" parent="10" relname="cause-effect" type="span"></group>
+<group id="10" parent="8" relname="span" type="span"></group>
+<group id="11" parent="8" relname="elaboration" type="span"></group>
+<group id="12" parent="11" relname="contrast" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

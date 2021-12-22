@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Таким образом, воскресенье должно оставаться днем</segment>
+<segment id="2" relname="purpose">для встреч с семьей,</segment>
+<segment id="3" parent="8" relname="span">в противном случае появится новый вид досуга,</segment>
+<segment id="4" parent="3" relname="elaboration">где люди проводят время в супермаркетах, а не на улице или в беседах и т.д.</segment>
+<segment id="5" parent="9" relname="joint">Кроме того, для магазинов нет необходимости работать по воскресеньям.</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="6" relname="span" type="span"></group>
+<group id="8" parent="7" relname="elaboration" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

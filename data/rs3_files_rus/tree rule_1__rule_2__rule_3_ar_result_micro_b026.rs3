@@ -1,0 +1,22 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="joint" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Государственные страховые компании должны также покрывать лечение у немедицинских служб и альтернативных специалистов.</segment>
+<segment id="2" parent="8" relname="joint">Их методы лечения и успехи не доказаны</segment>
+<segment id="3" parent="8" relname="joint">и не исследованы в достаточной мере.</segment>
+<segment id="4" parent="9" relname="span">Тем не менее, многие пациенты испытывают субъективное облегчение или излечиваются,что, в конце концов, позволяет сэкономить на традиционном лечении и лекарствах.</segment>
+<segment id="5" parent="10" relname="joint">Традиционная медицина также во многих случаях не достигает успеха,</segment>
+<segment id="6" parent="10" relname="joint">и, более того, влечёт за собой значительные риски и побочные эффекты.</segment>
+<group id="7" parent="11" relname="contrast" type="span"></group>
+<group id="8" parent="1" relname="elaboration" type="span"></group>
+<group id="9" parent="11" relname="contrast" type="span"></group>
+<group id="10" parent="4" relname="elaboration" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

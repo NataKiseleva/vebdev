@@ -1,0 +1,26 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Желательно, чтобы никто не скрывал свои доходы от налоговых служб.</segment>
+<segment id="2" parent="11" relname="joint">Те, кто делает это</segment>
+<segment id="3" parent="11" relname="joint">или пытаются, должны по возможности быть привлечены к ответственности.</segment>
+<segment id="4" parent="5" relname="cause-effect">При этом, государственные средства часто тратяться впустую в бессмысленные начинания,</segment>
+<segment id="5" parent="12" relname="span">так что во многом этот идеал выглядит недостойным поддержки.</segment>
+<segment id="6" parent="13" relname="span">Кроме того, торговля информацией очевидно обусловлена жаждой наживы.</segment>
+<segment id="7" parent="14" relname="joint">Следовательно, данные о налогах, не предоставляемые бесплатно,</segment>
+<segment id="8" parent="14" relname="joint">не должны предоставляться и государству.</segment>
+<group id="9" parent="15" relname="joint" type="span"></group>
+<group id="10" parent="1" relname="elaboration" type="span"></group>
+<group id="11" parent="10" relname="joint" type="span"></group>
+<group id="12" parent="10" relname="joint" type="span"></group>
+<group id="13" parent="15" relname="joint" type="span"></group>
+<group id="14" parent="6" relname="elaboration" type="span"></group>
+<group id="15" type="span"></group>
+</body>
+</rst>

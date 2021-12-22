@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Я могу только порекомендовать всем новый смартфон XYZ-123.</segment>
+<segment id="2" parent="8" relname="span">Конечно, камера могла быть и получше,</segment>
+<segment id="3" parent="2" relname="cause-effect">у неё средненькое разрешение,</segment>
+<segment id="4" parent="7" relname="joint">и в темноте фотографии выходят некачественными.</segment>
+<segment id="5" parent="9" relname="contrast">Но для обычных фотографий этого хватает.</segment>
+<group id="6" parent="9" relname="contrast" type="span"></group>
+<group id="7" parent="1" relname="interpretation-evaluation" type="span"></group>
+<group id="8" parent="7" relname="joint" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,28 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="10" relname="interpretation-evaluation">Конечно, было бы замечательно,</segment>
+<segment id="2" parent="10" relname="joint">если после хорошей ночи с встреченным на вечеринке знакомым можно было просто принять противозачаточное</segment>
+<segment id="3" parent="10" relname="joint">и почувствовать облегчение.</segment>
+<segment id="4" parent="11" relname="span">Но это не так-то просто.</segment>
+<segment id="5" parent="12" relname="span">Возможно, этой ночью уже была зачата новая жизнь.</segment>
+<segment id="6" parent="14" relname="joint">Я бы уничтожил её,</segment>
+<segment id="7" parent="14" relname="joint">не задумываясь.</segment>
+<segment id="8" parent="13" relname="span">Поэтому посещение врача и профессиональные консультации должны оставаться обязательными.</segment>
+<group id="9" parent="15" relname="contrast" type="span"></group>
+<group id="10" parent="9" relname="span" type="span"></group>
+<group id="11" parent="15" relname="contrast" type="span"></group>
+<group id="12" parent="4" relname="elaboration" type="span"></group>
+<group id="13" parent="5" relname="elaboration" type="span"></group>
+<group id="14" parent="8" relname="cause-effect" type="span"></group>
+<group id="15" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,24 @@
+<rst>
+<header>
+<relations>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="same-unit">Большие события, привлекающие внимание на государственном или даже мировом уровне,</segment>
+<segment id="2" parent="9" relname="same-unit">привлекают множество посетителей,</segment>
+<segment id="3" parent="8" relname="joint">и ничто не вытащит Берлин из финансового застоя лучше, чем множество посетителей, тратящих свои деньги.</segment>
+<segment id="4" parent="7" relname="span">Поэтому мэру Берлина стоит как можно интенсивнее бороться с трудностями, препятствующими проведению таких событий.</segment>
+<segment id="5" parent="10" relname="contrast">Конечно, повышение федерального финансирования было бы ещё лучше для берлинской казны,</segment>
+<segment id="6" parent="10" relname="contrast">но надеяться на это не стоит.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="4" relname="cause-effect" type="span"></group>
+<group id="9" parent="8" relname="joint" type="span"></group>
+<group id="10" parent="7" relname="interpretation-evaluation" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="elementary" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Завтра я первый раз в жизни прыгну с парашютом.</segment>
+<segment id="2" relname="interpretation-evaluation">Разумеется, это может быть опасно для жизни.</segment>
+<segment id="3" parent="7" relname="same-unit_NN">Но я хочу испытать это восхитительное мгновение свободы,</segment>
+<segment id="4" parent="8" relname="span">К тому же, Йохану позавчера подарили билет на прыжок с парашютом,о котором снова и снова говорят парашютисты.</segment>
+<segment id="5" parent="4" relname="elementary">и я не позволю этому несостоявшемуся авантюристу меня обогнать.</segment>
+<group id="6" parent="9" relname="contrast" type="span"></group>
+<group id="7" parent="9" relname="contrast" type="span"></group>
+<group id="8" parent="7" relname="same-unit_NN" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

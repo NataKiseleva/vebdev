@@ -1,0 +1,12 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="3" relname="span">Видеоигры, - в моём случае FIFA, - могут очаровывать молодёжь на многие часы более интенсивно и эмоционально, чем любой спорт!</segment>
+<segment id="2" relname="elaboration">Было бы справедливо внести их в список олимпийских дисциплин.</segment>
+<group id="3" type="span"></group>
+</body>
+</rst>

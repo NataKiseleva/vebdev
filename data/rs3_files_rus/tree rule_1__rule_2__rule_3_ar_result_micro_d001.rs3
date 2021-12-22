@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="evidence" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">Фредди и я, должно быть, братья.</segment>
+<segment id="2" parent="7" relname="contrast">У нас у обоих одинаковая пара родинок на левых руках,</segment>
+<segment id="3" parent="7" relname="contrast">а это бывает только у братьев.</segment>
+<segment id="4" parent="8" relname="contrast">Мои родители говорят, что это может быть чистое совпадение.</segment>
+<segment id="5" parent="8" relname="contrast">Но таких совпадений просто не бывает.</segment>
+<group id="6" parent="9" relname="span" type="span"></group>
+<group id="7" parent="1" relname="evidence" type="span"></group>
+<group id="8" parent="6" relname="interpretation-evaluation" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

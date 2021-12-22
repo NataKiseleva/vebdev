@@ -1,0 +1,21 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="evidence" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="6" relname="span">У каждого гражданина Германии есть право на образование.</segment>
+<segment id="2" parent="3" relname="cause-effect">Качество университетского образования имеет свою цену,</segment>
+<segment id="3" parent="8" relname="span">поэтому студентов тоже следует включить в фактор затрат.</segment>
+<segment id="4" parent="7" relname="contrast">Но получение образование не должно быть вопросом обеспеченности в богатом обществе, таком как в Германии.</segment>
+<segment id="5" parent="9" relname="joint">Следовательно, университеты Германии не должны взимать плату за обучение.</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="1" relname="evidence" type="span"></group>
+<group id="8" parent="7" relname="contrast" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

@@ -1,0 +1,27 @@
+<rst>
+<header>
+<relations>
+<rel name="condition" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="span">Супермаркетам и торговым центрам нужно дать право определять график работы в выходные и праздничные дни по своему усмотрению.</segment>
+<segment id="2" parent="11" relname="span">Так как, таким образом, дни покупок,</segment>
+<segment id="3" parent="2" relname="condition">когда магазины открыты по воскресеньям,</segment>
+<segment id="4" parent="10" relname="span">будут лучше распределены в течение года.</segment>
+<segment id="5" parent="12" relname="span">Также на улицах и в магазинах, предположительно, будет меньше машин и людей</segment>
+<segment id="6" parent="5" relname="cause-effect">так как не все заведения будут открыты в один и тот же день.</segment>
+<segment id="7" parent="13" relname="contrast">Однако, тогда у вас не будет четкого представления о том, какой магазин открыт в данный день.</segment>
+<group id="8" parent="13" relname="contrast" type="span"></group>
+<group id="9" parent="1" relname="elaboration" type="span"></group>
+<group id="10" parent="9" relname="joint" type="span"></group>
+<group id="11" parent="4" relname="condition" type="span"></group>
+<group id="12" parent="9" relname="joint" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

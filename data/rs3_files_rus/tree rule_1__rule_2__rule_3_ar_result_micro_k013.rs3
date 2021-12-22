@@ -1,0 +1,35 @@
+<rst>
+<header>
+<relations>
+<rel name="attribution" type="rst"></rel>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="solutionhood" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="elementary" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="purpose" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="19" relname="span">Работники супермаркетов и люди, работающие в торговых центрах, также имеют право на отдых в выходные дни.</segment>
+<segment id="2" parent="13" relname="same-unit_NN">Точно также и государственные праздники должны оставаться такими, какие они есть:</segment>
+<segment id="3" parent="16" relname="span">Следовательно, это хорошо,</segment>
+<segment id="4" parent="3" relname="condition">когда магазины не работают в выходные  и  праздничные дни.</segment>
+<segment id="5" parent="15" relname="contrast">Однако у людей, которые работают в течение недели и по субботам, возникает проблема:который включен в счет ежегодного оплачиваемого отпуска.</segment>
+<segment id="6" parent="17" relname="joint">другие люди могут совершать покупки в будние дни,</segment>
+<segment id="7" parent="8" relname="solutionhood">а они – не могут.</segment>
+<segment id="8" parent="18" relname="span">Для этих людей хорошая альтернатива – посещение магазинов, которые открыты до полуночи.</segment>
+<segment id="9" parent="13" relname="purpose">для одних это всего лишь день для саморефлексии,</segment>
+<segment id="10" parent="12" relname="purpose">для других - оплачиваемый выходной,</segment>
+<group id="11" parent="1" relname="attribution" type="span"></group>
+<group id="12" parent="11" relname="span" type="span"></group>
+<group id="13" parent="12" relname="span" type="span"></group>
+<group id="14" parent="13" relname="same-unit_NN" type="span"></group>
+<group id="15" parent="14" relname="span" type="span"></group>
+<group id="16" parent="15" relname="contrast" type="span"></group>
+<group id="17" parent="15" relname="elementary" type="span"></group>
+<group id="18" parent="17" relname="joint" type="span"></group>
+<group id="19" type="span"></group>
+</body>
+</rst>

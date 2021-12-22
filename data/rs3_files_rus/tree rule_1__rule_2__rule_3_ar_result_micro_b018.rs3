@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="contrast">Выбор лечащего врача остаётся на усмотрение пациента.</segment>
+<segment id="2" parent="8" relname="contrast">Но фонды страховых компаний служат общей прибылью для всех плательщиков.</segment>
+<segment id="3" parent="8" relname="elaboration">Их не следует тратить на личные предпочтения без подтверждения оправдательными документами.</segment>
+<segment id="4" parent="7" relname="interpretation-evaluation">Многие природные средства так и не показали свою эффективность.</segment>
+<segment id="5" parent="6" relname="interpretation-evaluation">Следовательно, страховые компании не должны покрывать расходы ни на какие недоказанные и непризнанные методы лечения, предлагаемые натуропатами.</segment>
+<group id="6" parent="9" relname="span" type="span"></group>
+<group id="7" parent="6" relname="span" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

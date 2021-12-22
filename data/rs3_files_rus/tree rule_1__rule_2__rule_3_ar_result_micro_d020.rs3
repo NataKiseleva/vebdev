@@ -1,0 +1,20 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="preparation" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="preparation">Прототип нового спорткара Audi поднял шум в среде автолюбителей.</segment>
+<segment id="2" parent="8" relname="joint">Рулевое управление всё ещё требует настройки,</segment>
+<segment id="3" parent="8" relname="joint">на высоких скоростях машина складывается пополам,</segment>
+<segment id="4" parent="7" relname="contrast">а на этой красавице вам захочется погонять.</segment>
+<segment id="5" parent="9" relname="joint">Во всё остальном, машина может угодить любому вашему капризу.</segment>
+<group id="6" parent="9" relname="joint" type="span"></group>
+<group id="7" parent="6" relname="span" type="span"></group>
+<group id="8" parent="7" relname="contrast" type="span"></group>
+<group id="9" type="span"></group>
+</body>
+</rst>

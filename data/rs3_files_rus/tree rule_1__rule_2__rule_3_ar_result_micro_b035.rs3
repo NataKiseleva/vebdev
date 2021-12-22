@@ -1,0 +1,22 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="preparation" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="preparation">Дополнительная медицина включает методы, доказавшие свою оздоровительную пользу во многих областях.</segment>
+<segment id="2" parent="7" relname="joint">Зачастую они менее затратны, чем лекарства, предоставляемые традиционной медициной,которые в конце концов всё равно оплачиваются.</segment>
+<segment id="3" parent="9" relname="cause-effect">Зачастую природные методы лечения не оказывают значительного давления на пациента.</segment>
+<segment id="4" parent="9" relname="joint">Результатом такой терапии часто является улучшение состояния пациента через его активное участие.</segment>
+<segment id="5" parent="10" relname="joint">Страховым компаниям следует дать право признавать решение врача о природных методах лечения</segment>
+<segment id="6" parent="10" relname="joint">и покрывать соответствующие расходы.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="7" relname="joint" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="9" relname="joint" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

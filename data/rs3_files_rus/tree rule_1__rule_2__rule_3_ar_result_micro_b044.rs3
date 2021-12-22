@@ -1,0 +1,22 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="joint">Будучи центральным аэропортом, Берлин-Тегель особенно привлекателен для деловых путешествий</segment>
+<segment id="2" parent="8" relname="joint">и должен непременно продолжать работу.</segment>
+<segment id="3" parent="9" relname="contrast">Он сам по себе является экономическим активом.</segment>
+<segment id="4" parent="10" relname="span">Однако, негативное влияние воздушного движения значительно.</segment>
+<segment id="5" parent="4" relname="elaboration">Оно крайне неблагоприятно для окружающей среды.</segment>
+<segment id="6" parent="11" relname="joint">Особенно в районе аэропорта Тегель жители страдают от шума самолётов десятилетиями.</segment>
+<group id="7" parent="11" relname="joint" type="span"></group>
+<group id="8" parent="7" relname="span" type="span"></group>
+<group id="9" parent="8" relname="elaboration" type="span"></group>
+<group id="10" parent="9" relname="contrast" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

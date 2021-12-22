@@ -1,0 +1,18 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Без сомнения, за собачьи «кучки» на асфальте владельцы собак должны платить больше.</segment>
+<segment id="2" parent="6" relname="contrast">Животные, конечно, не виноваты,</segment>
+<segment id="3" parent="6" relname="contrast">но их экскременты довольно настойчиво прилипают к вашим подошвам,</segment>
+<segment id="4" parent="6" relname="condition">как только вы в них вступаете.</segment>
+<group id="5" parent="1" relname="elaboration" type="span"></group>
+<group id="6" parent="5" relname="span" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

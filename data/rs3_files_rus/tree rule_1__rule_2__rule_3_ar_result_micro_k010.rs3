@@ -1,0 +1,37 @@
+<rst>
+<header>
+<relations>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="solutionhood" type="rst"></rel>
+<rel name="cause-effect" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="elementary" type="rst"></rel>
+<rel name="condition" type="rst"></rel>
+<rel name="concession" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="13" relname="condition">Учитывая то, что сегодня показывают по телевидению,</segment>
+<segment id="2" parent="13" relname="same-unit_NN">было бы справедливо,</segment>
+<segment id="3" parent="14" relname="span">Существуют шоу, актуальные только для старшего поколения в прайм-тайм,если бы за определенные передачи платили только те, кто действительно их смотрит(или хочет смотреть).</segment>
+<segment id="4" parent="3" relname="elementary">так почему же все должны за них платить?</segment>
+<segment id="5" parent="6" relname="cause-effect">Сейчас реклама есть на всех каналах,</segment>
+<segment id="6" parent="16" relname="span">так что у зрителей, оплачивающих телевизионные услуги общественного вещания, нет никаких преимуществ.</segment>
+<segment id="7" parent="18" relname="span">Тем не менее, следует отметить, что, вероятно, было бы намного меньше станций,</segment>
+<segment id="8" parent="7" relname="condition">если бы не вся Германия была обязана платить.</segment>
+<segment id="9" parent="20" relname="same-unit_NN">Хотя, это не должно быть проблемой,</segment>
+<segment id="10" parent="20" relname="same-unit_NN">которые, в основном, все равно показывают одно и то же.</segment>
+<segment id="11" parent="20" relname="condition">учитывая само количество программ и станций,</segment>
+<group id="12" parent="15" relname="solutionhood" type="span"></group>
+<group id="13" parent="12" relname="span" type="span"></group>
+<group id="14" parent="13" relname="same-unit_NN" type="span"></group>
+<group id="15" parent="21" relname="span" type="span"></group>
+<group id="16" parent="15" relname="contrast" type="span"></group>
+<group id="17" parent="15" relname="contrast" type="span"></group>
+<group id="18" parent="17" relname="span" type="span"></group>
+<group id="19" parent="18" relname="concession" type="span"></group>
+<group id="20" parent="19" relname="span" type="span"></group>
+<group id="21" type="span"></group>
+</body>
+</rst>

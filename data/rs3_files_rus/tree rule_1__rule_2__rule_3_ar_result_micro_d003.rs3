@@ -1,0 +1,24 @@
+<rst>
+<header>
+<relations>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="interpretation-evaluation" type="rst"></rel>
+<rel name="concession" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="span">Взять Тома в нашу футбольную команду совершенно точно было ошибкой.</segment>
+<segment id="2" parent="9" relname="joint">Он не командный игрок,</segment>
+<segment id="3" parent="9" relname="joint">и часто действует самостоятельно.</segment>
+<segment id="4" parent="10" relname="span">К тому же, он слишком редко ходит на тренировки,</segment>
+<segment id="5" parent="4" relname="concession">хоть и всё равно хорошо играет.</segment>
+<segment id="6" parent="11" relname="contrast">Но хуже всего то, что у него есть привычка постоянно жаловаться судье.</segment>
+<group id="7" parent="11" relname="contrast" type="span"></group>
+<group id="8" parent="1" relname="elaboration" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="9" relname="interpretation-evaluation" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>

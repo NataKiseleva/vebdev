@@ -1,0 +1,18 @@
+<rst>
+<header>
+<relations>
+<rel name="same-unit" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="7" relname="contrast">Конечно, в общественном вещании есть ряд программ, которые не стоят лицензионного сбора, и другие, такие как “Musikantenstadl” и мыльные оперы, интересные только определённым группам зрителей.</segment>
+<segment id="2" parent="6" relname="same-unit_NN">Тем не менее, каждый должен участвовать в финансировании государственных теле- и радиокомпаний в равной мере,</segment>
+<segment id="3" parent="6" relname="same-unit_NN">В конце концов, никто не хочет смотреть на мир ни через призму государства, ни через призму богатых медиамагнатов.</segment>
+<segment id="4" parent="6" relname="cause-effect">потому что нам нужны общие и независимые СМИ.</segment>
+<group id="5" parent="7" relname="contrast" type="span"></group>
+<group id="6" parent="5" relname="span" type="span"></group>
+<group id="7" type="span"></group>
+</body>
+</rst>

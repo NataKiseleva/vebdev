@@ -1,0 +1,25 @@
+<rst>
+<header>
+<relations>
+<rel name="elaboration" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="condition" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="9" relname="span">Должен существовать лимит изменения цен на аренду</segment>
+<segment id="2" relname="condition">при смене арендатора.</segment>
+<segment id="3" parent="12" relname="joint">Возможно, домовладельцы захотят заработать как можно больше,</segment>
+<segment id="4" parent="12" relname="joint">и многие, в соответствиями с принципами рынка, будут готовы платить более высокую арендную плату,</segment>
+<segment id="5" parent="11" relname="contrast">но кажется неправдоподобным то, что люди с неизменным доходом внезапно должны платить больше</segment>
+<segment id="6" parent="10" relname="joint">и не могут больше жить в той же квартире.</segment>
+<segment id="7" parent="13" relname="joint">Джентрификация уничтожает целые районы и их культуру.</segment>
+<group id="8" parent="13" relname="joint" type="span"></group>
+<group id="9" parent="8" relname="span" type="span"></group>
+<group id="10" parent="9" relname="elaboration" type="span"></group>
+<group id="11" parent="10" relname="joint" type="span"></group>
+<group id="12" parent="11" relname="contrast" type="span"></group>
+<group id="13" type="span"></group>
+</body>
+</rst>

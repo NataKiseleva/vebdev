@@ -1,0 +1,24 @@
+<rst>
+<header>
+<relations>
+<rel name="condition" type="rst"></rel>
+<rel name="joint" type="multinuc"></rel>
+<rel name="elaboration" type="rst"></rel>
+<rel name="contrast" type="multinuc"></rel>
+<rel name="cause-effect" type="rst"></rel>
+</relations>
+</header>
+<body>
+<segment id="1" parent="8" relname="joint">Скоро парламентские выборы,</segment>
+<segment id="2" parent="8" relname="joint">и по традиции правящая партия щедро сыплет популистскими лозунгами в федеральной предвыборной кампании.</segment>
+<segment id="3" parent="9" relname="span">Тем не менее, главе правительства, Меркель, лучше быть сдержанней,</segment>
+<segment id="4" parent="3" relname="condition">когда она будет объявлять подачки на этот год.</segment>
+<segment id="5" parent="10" relname="span">Избиратели стали более скептически настроены.</segment>
+<segment id="6" parent="5" relname="cause-effect">Слишком много обещаний было не сдержано.</segment>
+<group id="7" parent="11" relname="span" type="span"></group>
+<group id="8" parent="7" relname="contrast" type="span"></group>
+<group id="9" parent="7" relname="contrast" type="span"></group>
+<group id="10" parent="7" relname="elaboration" type="span"></group>
+<group id="11" type="span"></group>
+</body>
+</rst>
