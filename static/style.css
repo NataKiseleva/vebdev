@@ -96,12 +96,24 @@ checkselect{
 	border: solid 1px #C3E4FE;
 	text-align: center;
 }
-header ul{
-	list-style-type: none;
-}
-header li{
+nav a {
+	height: 60px;
+  	line-height: 60px;
+  	color: #204156;
+  	text-decoration: none;
 	display: inline;
 }
-header a{
-	text-decoration: none;
+nav li {
+	margin: 0;
+  	padding: 0 10px;
+  	display: inline;
+	list-style-type: none;
+	display: inline;
+}
+nav ul {
+  	display: inline;
+	list-style-type: none;
+}
+header{
+	font-size: 20px;
 }
