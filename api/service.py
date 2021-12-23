@@ -4,7 +4,7 @@ from fastapi import FastAPI, Query
 
 from typing import List, Optional
 
-from RST_search import rst_search, tags_abbs, rels_abbs
+from RST_search import rst_search
 
 app = FastAPI()
 
