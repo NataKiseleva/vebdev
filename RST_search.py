@@ -60,7 +60,7 @@ tag_list = list(set(tag_list))
 
 tags_abbs = [['Существительное', 'NOUN'], ['Имя собственное', 'PROPN'], ['Местоимение', 'PRON'], ['Глагол', 'VERB'],
              ['Прилагательное', 'ADJ'], ['Наречие', 'ADV'], ['Междометие', 'INTJ'], ['Частица', 'PART'],
-             ['Союз', 'CONJ'], ['Соединительный союз', 'CCONJ'], ['Подчинительный союз', 'SCONJ'], 
+             ['Союзы', 'CONJ'], ['Соединительные союзы', 'CCONJ'], ['Подчинительные союзы', 'SCONJ'], 
              ['Вспомогательное слово', 'AUX'], ['Адлог', 'ADP'], ['Детерминатив', 'DET'], ['Числительное', 'NUM'],
              ['Символ', 'SYM'], ['Другое','X'], ['Пунктуация','PUNCT']]
 
@@ -165,7 +165,7 @@ def rst_search(query=None, pos=None, rels=None):
             df_1 = eng_df
             query_norm = norm_eng(query)
         if lang == None:
-            return 'Language is not detected', 0
+            return 'Не удалось определить язык запроса.', 0
         
         for index, row in df_1.iterrows():
             if query_norm in row['lemmas'] and row['text_id'] not in text_ids:
@@ -180,14 +180,14 @@ def rst_search(query=None, pos=None, rels=None):
         
         if rels == None:
             if text_ids == []:
-                return 'Совпадения не найдены', 0
+                return 'Совпадения не найдены.', 0
             else:
                 return get_texts(text_ids), text_ids
         
         else:
             new_text_ids = rel_check(rels, text_ids)
             if new_text_ids == []:
-                return 'Совпадения не найдены', 0
+                return 'Совпадения не найдены.', 0
             else:
                 return get_texts(new_text_ids), new_text_ids
     
@@ -197,7 +197,7 @@ def rst_search(query=None, pos=None, rels=None):
             pos_check(pos[0], eng_df, text_ids)
             
             if text_ids == []:
-                return 'Совпадения не найдены', 0
+                return 'Совпадения не найдены.', 0
             else:
                 return get_texts(text_ids), text_ids
         
@@ -205,7 +205,7 @@ def rst_search(query=None, pos=None, rels=None):
             res_ids = rel_check(rels)
             
             if res_ids == []:
-                return 'Совпадения не найдены', 0
+                return 'Совпадения не найдены.', 0
             else:
                 return get_texts(res_ids), res_ids
         
@@ -213,7 +213,7 @@ def rst_search(query=None, pos=None, rels=None):
             return 'Пустой запрос. Попробуйте еще раз.', 0
 
 
-# In[17]:
+# In[37]:
 
 
 def rel_check(rels, text_ids = None):
@@ -229,17 +229,20 @@ def rel_check(rels, text_ids = None):
             
     for file in files:
         path = 'data/rs3_files_rus/' + file
+        if file[-8:-4][0] == '_':
+            text_id = file[-7:-4]
+        else:
+            text_id = file[-8:-4]
         with open(path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
             for rel in rels:
-                #rel_results = []
                 for line in lines:
-                    if rel in line and file[-8:-4] not in res_files:
-                        res_files.append(file[-8:-4])
+                    if rel in line and text_id not in res_files:
+                        res_files.append(text_id)
     return res_files        
 
 
-# In[18]:
+# In[38]:
 
 
 def pos_check(pos, df, text_ids):
@@ -248,7 +251,7 @@ def pos_check(pos, df, text_ids):
             text_ids.append(row['text_id'])
 
 
-# In[19]:
+# In[39]:
 
 
 def get_texts(text_ids):
