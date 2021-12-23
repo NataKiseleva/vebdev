@@ -14,5 +14,4 @@ def search(
     selected_tags: Optional[List[str]] = Query(None),
     selected_rels: Optional[List[str]] = Query(None)
 ):
-    print("ok")
     return rst_search(input_query, selected_tags, selected_rels)
