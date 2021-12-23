@@ -65,11 +65,4 @@ def search():
             return render_template('bad_entry.html', message = results)
 
 if __name__ == '__main__':
-    app.run()
-
-
-# In[ ]:
-
-
-
-
+    app.run("0.0.0.0")
