@@ -14,7 +14,7 @@ body {
 }
 .container{
     background-color: white;
-	font-size:20px;
+	/* font-size:20px; */
 	font-family: Palatino, "Palatino Linotype", serif;
 }
 img.im{
@@ -82,19 +82,12 @@ a.button {
 }
 h1{
 	color:#1f8cb8;
-	font-size:30px;
+	/* font-size:30px; */
 	font-family: Palatino, "Palatino Linotype", serif;
 	margin: 10px;
 }
 h2{
-	font-size: 20px;
-}
-checkselect{
-	width: 300px;
-	height: 190px;
-	overflow: auto;
-	border: solid 1px #C3E4FE;
-	text-align: center;
+	/* font-size: 20px; */
 }
 nav a {
 	height: 60px;

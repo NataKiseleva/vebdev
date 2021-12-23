@@ -16,31 +16,65 @@
 		<header>
             <h1>
                 <hr size="4" color="black">
-					<a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a> <center> RST с нуля </center>
+					<a href="/"><img src={{url_for('static', filename='home.jpg')}} class="im2"></a>
+					<div class="text-center"> RST с нуля </div>
                 <hr size="4" color="black">
             </h1>           
         </header>
 		<form method = 'POST' action='/results'>
-		<center>
-			<p style='font-size: 25px;'><b>Поиск по корпусу</b></p>
-			<p><b>Слово или фраза</b></p>
-			<input type="text" name="input_query" value="" style="width: 400px">
-			<p><b>Дополнительные параметры (опционально)</b></p>
-			<table>
-			<tr><th>Часть речи</th><th>Риторическое отношение</th></tr>
-			<tr><td><div class="checkselect" multiple>
-			{% for r in pos_tags %} 
-			<p><input type="radio" name="pos_tag" value={{r[1]}}>{{r[0]}}</p>
-			{% endfor %} 
-			</div></td><td><div class="checkselect" multiple>
-			{% for r in rels %} 
-			<p><input type="checkbox" name="relation" value={{r[1]}}>{{r[0]}}</p>
-			{% endfor %} 
-			</div></td></tr>
-			</table>
-			<br>			
-			<p><input type="submit" name='button_1'></p>
-		</center>	
+			<div>
+				<div class="text-center py-auto">
+					<h2>Поиск по корпусу</h2>
+					<p><b>Слово или фраза</b></p>
+					<div class="row">
+						<div class="col-2"></div>
+						<div class="col-8">
+							<div class="input-group">
+								<input class="form-control" type="search" name="input_query" value="">
+								<span class="input-group-append">
+									<button class="btn btn-outline-secondary">
+										Искать
+									</button>
+								</span>
+							</div>
+						</div>
+						<div class="col-2"></div>
+					</div>
+				</div>
+				<div class="py-auto">
+					<div class="text-center">
+						<h3>Дополнительные параметры (опционально)</h3>
+					</div>
+					<div class="row">
+						<div class="col-6 d-flex justify-content-center">
+							<div>
+								<h4>Часть речи</h4>
+								<!-- <div> -->
+									{% for r in pos_tags %}
+									<div class="form-check">
+										<input type="radio" class="form-check-input" id="pos_tag_{{r[1]}}" name="pos_tag" value={{r[1]}}>
+										<label class="form-check-label" for="pos_tag_{{r[1]}}">{{r[0]}}</label>
+									</div>
+									{% endfor %} 
+								<!-- </div> -->
+							</div>
+						</div>
+						<div class="col-6 d-flex justify-content-center">
+							<div>
+								<h4>Риторическое отношение</h4>
+								<!-- <div> -->
+									{% for r in rels %}
+									<div class="form-check">
+										<input type="checkbox" name="relation" id="relation_{{r[1]}}" value={{r[1]}}>
+										<label class="from-check-label" for="relation_{{r[1]}}">{{r[0]}}</label>
+									</div>
+									{% endfor %}
+								<!-- </div>  -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
 		</form>
 		</div>
 		<footer class="footer">
