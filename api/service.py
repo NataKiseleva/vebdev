@@ -22,7 +22,7 @@ app = FastAPI(
 def search(
     query: str = Query("Германия", description="A Russian or English word you would like to search"),
     tag: Optional[str] = Query(None, enum=all_tags, description="(Optional) POS tag of the given word "),
-    rels: Optional[List[str]] = Query(None, description=f"(Optional) Type of discourse relation - one or multiple from: {', '.join(all_rels)}")
+    rels: Optional[List[str]] = Query(None, description=f"(Optional) Type of discourse relation - one or multiple (logical OR) from: {', '.join(all_rels)}")
 ):
     if tag:
         tags = [tag]
